@@ -1,0 +1,63 @@
+# Tradução — sistema esquelético (Terminologia Anatômica em português).
+# Colunas: nome-base em inglês | nome em português | revisar (sim/vazio) | nota
+# {m} {f} {mp} {fp} = onde entra o lado (direito/direita/direitos/direitas).
+# Séries (vértebras, costelas, cartilagens costais, metacarpais, metatarsais, falanges,
+# dentes, discos intervertebrais) são geradas por regra em scripts/04-catalogo-app.mjs.
+atlas	Atlas (vértebra C1)
+axis	Áxis (vértebra C2)
+body of sternum	Corpo do esterno
+calcaneus	Calcâneo {m}
+capitate	Capitato {m}
+clavicle	Clavícula {f}
+cuboid bone	Cuboide {m}
+ethmoid	Etmoide
+femur	Fêmur {m}
+fibula	Fíbula {f}
+frontal bone	Osso frontal
+hamate	Hamato {m}
+hip bone	Osso do quadril {m}
+humerus	Úmero {m}
+hyoid bone	Osso hioide
+inferior nasal concha	Concha nasal inferior {f}
+intermediate cuneiform bone	Cuneiforme intermédio {m}
+interosseous membrane of forearm	Membrana interóssea do antebraço {m}
+interosseous membrane of leg	Membrana interóssea da perna {f}
+intervertebral disk	Disco intervertebral	sim	a fonte não diz entre quais vértebras
+intervertebral disk of axis	Disco intervertebral do áxis (C2)
+lacrimal bone	Osso lacrimal {m}
+lateral cuneiform bone	Cuneiforme lateral {m}
+lateral nasal cartilage	Cartilagem nasal lateral {f}	sim	na TA atual: processo lateral da cartilagem do septo nasal
+long plantar ligament	Ligamento plantar longo {m}
+lunate	Semilunar {m}
+major alar cartilage	Cartilagem alar maior {f}
+mandible	Mandíbula
+manubrium	Manúbrio do esterno
+maxilla	Maxila {f}
+medial cuneiform bone	Cuneiforme medial {m}
+median cricothyroid ligament	Ligamento cricotireóideo mediano
+nasal bone	Osso nasal {m}
+navicular bone of foot	Navicular {m}
+occipital bone	Osso occipital
+palatine bone	Osso palatino {m}
+parietal bone	Osso parietal {m}
+patella	Patela {f}
+pisiform	Pisiforme {m}
+radius	Rádio {m}
+sacrum	Sacro
+scaphoid	Escafoide {m}
+scapula	Escápula {f}
+septal nasal cartilage	Cartilagem do septo nasal
+sesamoid bone of foot	Osso sesamoide do pé {m}
+sphenoid bone	Esfenoide
+stylohyoid ligament	Ligamento estilo-hióideo {m}
+talus	Tálus {m}
+temporal bone	Osso temporal {m}
+tibia	Tíbia {f}
+trapezium	Trapézio {m} (osso do carpo)
+trapezoid	Trapezoide {m}
+triquetral	Piramidal {m}
+trochlea of superior oblique	Tróclea {f} do músculo oblíquo superior
+ulna	Ulna {f}
+vomer	Vômer
+xiphoid process	Processo xifoide
+zygomatic bone	Osso zigomático {m}

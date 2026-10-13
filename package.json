@@ -1,0 +1,46 @@
+{
+  "name": "atlas-anatomia",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Atlas de anatomia 3D para estudo pessoal (BodyParts3D), offline no computador, Android (APK) e iPhone/iPad (PWA).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "dados:catalogo": "node scripts/01-catalogo.mjs",
+    "dados:modelos": "node scripts/03-modelos.mjs",
+    "build:android": "tsc -b && vite build --mode android",
+    "android:sync": "npm run build:android && npx cap sync android",
+    "android:icones": "npx capacitor-assets generate --android --assetPath recursos --iconBackgroundColor \"#0b7fa8\" --splashBackgroundColor \"#f4f1ea\"",
+    "android:apk": "npm run android:sync && cd android && gradlew.bat assembleRelease",
+    "publicar": "npm run build && gh-pages -d dist -t -m \"Publicação do site\"",
+    "dados:app": "node scripts/04-catalogo-app.mjs",
+    "dados": "npm run dados:catalogo && npm run dados:modelos && npm run dados:app"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3",
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "gh-pages": "^6.3.0",
+    "meshoptimizer": "^1.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}

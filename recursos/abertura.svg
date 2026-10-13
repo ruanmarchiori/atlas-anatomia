@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732">
+  <!-- Tela de abertura: fundo claro do app, ícone no centro e o nome. -->
+  <rect width="2732" height="2732" fill="#f4f1ea"/>
+  <g transform="translate(1366 1250) scale(1.15) translate(-256 -256)">
+    <rect width="512" height="512" rx="112" fill="#0b7fa8"/>
+    <g fill="none" stroke="#f4f1ea" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="256" cy="128" r="58"/><path d="M256 190v222"/>
+      <path d="M256 236c-46 0-82 18-96 42M256 236c46 0 82 18 96 42"/>
+      <path d="M256 280c-40 0-70 14-82 34M256 280c40 0 70 14 82 34"/>
+      <path d="M256 324c-30 0-54 10-64 26M256 324c30 0 54 10 64 26"/><path d="M206 412h100"/>
+    </g>
+  </g>
+  <text x="1366" y="1720" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="150" font-weight="700" fill="#22201c">Atlas <tspan fill="#0b7fa8">Anatomia</tspan></text>
+</svg>

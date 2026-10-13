@@ -1,0 +1,113 @@
+# Tradução — respiratório, digestório, urinário, linfático e outros
+# (Terminologia Anatômica em português).
+# Colunas: nome-base em inglês | nome em português | revisar (sim/vazio) | nota
+# "segmental bronchial tree" = o brônquio segmentar com suas ramificações.
+
+# ---------- Respiratório ----------
+anterior basal segmental bronchial tree	Brônquio segmentar basilar anterior {m}
+anterior segmental bronchial tree	Brônquio segmentar anterior {m}
+apical segmental bronchial tree	Brônquio segmentar apical {m}
+arytenoid cartilage	Cartilagem aritenóidea {f}
+conus elasticus	Cone elástico {m}
+corniculate cartilage	Cartilagem corniculada {f}
+cricoid cartilage	Cartilagem cricóidea
+cuneiform cartilage	Cartilagem cuneiforme {f}
+epiglottis	Epiglote
+hyo-epiglottic ligament	Ligamento hioepiglótico
+inferior lingular bronchial tree	Brônquio lingular inferior
+lateral basal segmental bronchial tree	Brônquio segmentar basilar lateral {m}
+lateral segmental bronchial tree	Brônquio segmentar lateral (lobo médio)
+lateral thyrohyoid ligament	Ligamento tíreo-hióideo lateral {m}
+main bronchus	Brônquio principal {m}
+main bronchus proper	Brônquio principal {m} (porção própria)	sim	a fonte separa "main bronchus" e "main bronchus proper"
+medial basal segmental bronchial tree	Brônquio segmentar basilar medial {m}
+medial segmental bronchial tree	Brônquio segmentar medial (lobo médio)
+median thyrohyoid ligament	Ligamento tíreo-hióideo mediano
+posterior basal segmental bronchial tree	Brônquio segmentar basilar posterior {m}
+posterior segmental bronchial tree	Brônquio segmentar posterior {m}
+superior lingular bronchial tree	Brônquio lingular superior
+superior segmental bronchial tree	Brônquio segmentar superior {m}
+thyro-epiglottic ligament	Ligamento tireoepiglótico
+thyrohyoid membrane	Membrana tíreo-hióidea {f}
+thyroid cartilage	Cartilagem tireóidea
+trachea	Traqueia
+vocal ligament	Ligamento vocal {m}
+
+# ---------- Digestório ----------
+anterior inferior tributary of hepatic biliary tree	Tributária anteroinferior do ducto hepático {m}	sim
+anterior superior tributary of hepatic biliary tree	Tributária anterossuperior do ducto hepático {m}	sim
+appendix	Apêndice vermiforme
+ascending colon	Colo ascendente
+caudate lobe of liver	Lobo caudado do fígado
+caudate lobe tributary of hepatic biliary tree	Tributária do lobo caudado do ducto hepático {m}	sim
+common hepatic duct	Ducto hepático comum
+cystic duct	Ducto cístico
+descending colon	Colo descendente
+distal part of ileum	Parte distal do íleo
+distal part of jejunum	Parte distal do jejuno
+duct of caudate lobe of liver	Ducto {m} do lobo caudado do fígado
+duodenum	Duodeno
+esophagus	Esôfago
+gallbladder	Vesícula biliar
+gingiva of lower jaw	Gengiva inferior
+gingiva of upper jaw	Gengiva superior
+hepatic duct	Ducto hepático {m}
+ileocecal junction	Junção ileocecal
+lateral inferior tributary of hepatic biliary tree	Tributária lateroinferior do ducto hepático {m}	sim
+lateral superior tributary of hepatic biliary tree	Tributária laterossuperior do ducto hepático {m}	sim
+medial inferior tributary of hepatic biliary tree	Tributária medioinferior do ducto hepático {m}	sim
+medial superior tributary of hepatic biliary tree	Tributária mediossuperior do ducto hepático {m}	sim
+mesentery of small intestine	Mesentério
+mesoappendix	Mesoapêndice
+middle part of ileum	Parte média do íleo
+middle part of jejunum	Parte média do jejuno
+pancreas	Pâncreas
+pancreatic duct	Ducto pancreático
+pancreatic duct tree	Ductos pancreáticos (ramificações)	sim
+parenchyma of pancreas	Parênquima do pâncreas
+posterior inferior tributary of hepatic biliary tree	Tributária posteroinferior do ducto hepático {m}	sim
+posterior superior tributary of hepatic biliary tree	Tributária posterossuperior do ducto hepático {m}	sim
+proximal part of ileum	Parte proximal do íleo
+proximal part of jejunum	Parte proximal do jejuno
+rectum	Reto
+stomach	Estômago
+sublingual gland	Glândula sublingual {f}
+submandibular gland	Glândula submandibular {f}
+tongue	Língua
+transverse colon	Colo transverso
+transverse mesocolon	Mesocolo transverso
+
+# ---------- Urinário (a fonte junta as suprarrenais aqui) ----------
+adrenal gland	Glândula suprarrenal {f}	sim	é endócrina; está no urinário por ficar colada ao rim
+kidney	Rim {m}
+ureter	Ureter {m}
+urethra	Uretra
+urinary bladder	Bexiga urinária
+
+# ---------- Linfático ----------
+lobe of thymus	Lobo {m} do timo
+spleen	Baço
+
+# ---------- Outros (pele, anexos do olho, genitais, hipófise) ----------
+corpus cavernosum of penis	Corpo cavernoso do pênis
+corpus spongiosum of penis	Corpo esponjoso do pênis
+deferent duct	Ducto deferente {m}
+epididymis	Epidídimo {m}
+external ear	Orelha externa
+eyebrow	Supercílio
+glans penis	Glande do pênis
+hair of head	Cabelos
+lacrimal canaliculus	Canalículo lacrimal {m}
+lacrimal gland	Glândula lacrimal {f}
+lacrimal lake	Lago lacrimal {m}
+lacrimal sac	Saco lacrimal {m}
+lip	Lábios
+nasolacrimal duct	Ducto lacrimonasal {m}
+pituitary gland	Hipófise
+prostate	Próstata
+pubic hair	Pelos pubianos
+seminal vesicle	Glândula seminal {f}
+skin	Pele
+tarsal plate of lower eyelid	Tarso da pálpebra inferior {f}
+tarsal plate of upper eyelid	Tarso da pálpebra superior {f}
+testis	Testículo {m}

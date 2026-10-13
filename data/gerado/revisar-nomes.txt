@@ -1,0 +1,162 @@
+Nomes em português marcados como "revisar": 156
+
+FJ1284	Muscular	Check ligament of left lateral rectus	→ Ligamento de contenção do músculo reto lateral esquerdo	(expansão da fáscia do músculo (bainha))
+FJ1292	Muscular	Check ligament of left medial rectus	→ Ligamento de contenção do músculo reto medial esquerdo	(expansão da fáscia do músculo (bainha))
+FJ1334	Muscular	Check ligament of right lateral rectus	→ Ligamento de contenção do músculo reto lateral direito	(expansão da fáscia do músculo (bainha))
+FJ1335	Muscular	Check ligament of right medial rectus	→ Ligamento de contenção do músculo reto medial direito	(expansão da fáscia do músculo (bainha))
+FJ1399	Muscular	Opponens digiti minimi of right foot	→ Músculo oponente do dedo mínimo do pé direito	(inconstante; nem sempre listado na TA)
+FJ1399M	Muscular	Opponens digiti minimi of left foot	→ Músculo oponente do dedo mínimo do pé esquerdo	(inconstante; nem sempre listado na TA)
+FJ1404	Muscular	Right adductor minimus	→ Músculo adutor mínimo direito	(porção superior do adutor magno, nem sempre listada à parte)
+FJ1404M	Muscular	Left adductor minimus	→ Músculo adutor mínimo esquerdo	(porção superior do adutor magno, nem sempre listada à parte)
+FJ1450	Muscular	Part of perineal muscle	→ Parte de músculo do períneo	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1451	Muscular	Part of external intercostal muscle	→ Parte dos músculos intercostais externos	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1454	Muscular	Part of innermost intercostal muscle	→ Parte dos músculos intercostais íntimos	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1455	Muscular	Part of internal intercostal muscle	→ Parte dos músculos intercostais internos	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1465	Muscular	Part of tendinous arch of levator ani	→ Parte do arco tendíneo do músculo levantador do ânus	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1525	Muscular	Part of thoracic rotator	→ Parte dos músculos rotadores do tórax	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1543	Muscular	Part of spinalis	→ Parte do músculo espinal	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1547	Muscular	Part of lateral lumbar intertransversarius	→ Parte dos músculos intertransversários laterais do lombo	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1548	Muscular	Part of medial lumbar intertransversarius	→ Parte dos músculos intertransversários mediais do lombo	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1549	Muscular	Part of set of anterior cervical intertransversarii	→ Parte dos músculos intertransversários anteriores do pescoço	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1550	Muscular	Part of set of interspinales lumborum	→ Parte dos músculos interespinais do lombo	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1552	Muscular	Part of set of interspinales cervicis	→ Parte dos músculos interespinais do pescoço	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1553	Muscular	Part of set of posterior cervical intertransversarii	→ Parte dos músculos intertransversários posteriores do pescoço	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1581	Muscular	Right intermediate tendon	→ Tendão intermédio direito	(a fonte não diz de qual músculo (digástrico ou omo-hióideo))
+FJ1656	Circulatório — artérias e coração	Part of anterior inferior cerebellar artery	→ Parte da artéria inferior anterior do cerebelo	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1664	Circulatório — artérias e coração	Part of artery of central sulcus	→ Parte da artéria do sulco central	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1665	Circulatório — artérias e coração	Part of artery of central sulcus	→ Parte da artéria do sulco central	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1677	Circulatório — artérias e coração	Right splenial artery	→ Artéria do esplênio do corpo caloso direito
+FJ1677M	Circulatório — artérias e coração	Left splenial artery	→ Artéria do esplênio do corpo caloso esquerdo
+FJ1678	Circulatório — artérias e coração	Right splenial artery	→ Artéria do esplênio do corpo caloso direito
+FJ1678M	Circulatório — artérias e coração	Left splenial artery	→ Artéria do esplênio do corpo caloso esquerdo
+FJ1684	Circulatório — artérias e coração	Lateral branch of right pontine artery	→ Ramo lateral da artéria pontina direita
+FJ1684M	Circulatório — artérias e coração	Lateral branch of left pontine artery	→ Ramo lateral da artéria pontina esquerda
+FJ1689	Circulatório — artérias e coração	Medial branch of right pontine artery	→ Ramo medial da artéria pontina direita
+FJ1689M	Circulatório — artérias e coração	Medial branch of left pontine artery	→ Ramo medial da artéria pontina esquerda
+FJ1719	Circulatório — artérias e coração	Part of set of posterior temporal branches of lateral occipital artery	→ Parte dos ramos temporais posteriores da artéria occipital lateral	(peça sem nome na fonte (deduzido da estrutura que a contém))
+FJ1755	Nervoso e olho	Choroid plexus of cerebral hemisphere	→ Plexo corióideo do ventrículo lateral	(a fonte diz "do hemisfério cerebral")
+FJ1803	Nervoso e olho	Choroid plexus of cerebral hemisphere	→ Plexo corióideo do ventrículo lateral	(a fonte diz "do hemisfério cerebral")
+FJ1832	Nervoso e olho	Septum of telencephalon	→ Septo pelúcido	(a fonte diz "septo do telencéfalo")
+FJ1846	Circulatório — artérias e coração	Celiac artery	→ Tronco celíaco (artéria celíaca)	(a fonte tem "celiac artery" e "celiac trunk" separados)
+FJ1858	Circulatório — veias	Hepatovenous segment IX	→ Segmento hepático (venoso) IX	(segmento do fígado definido pela drenagem venosa)
+FJ1867	Circulatório — veias	Tributary of middle hepatic vein	→ Tributária da veia hepática intermédia
+FJ1874	Circulatório — artérias e coração	Left lobe branch of left hepatic artery	→ Ramo lobar do ramo esquerdo da artéria hepática própria
+FJ1883	Digestório	Caudate lobe tributary of left hepatic biliary tree	→ Tributária do lobo caudado do ducto hepático esquerdo
+FJ1924	Circulatório — artérias e coração	Right lobe branch of right hepatic artery	→ Ramo lobar do ramo direito da artéria hepática própria
+FJ2013	Circulatório — artérias e coração	Celiac artery	→ Tronco celíaco (artéria celíaca)	(a fonte tem "celiac artery" e "celiac trunk" separados)
+FJ2025	Circulatório — artérias e coração	Marginal colic artery	→ Artéria marginal cólica	(parece duplicar a artéria marginal do colo)
+FJ2034	Circulatório — artérias e coração	Ileal branch of inferior branch of ileocolic artery	→ Ramo ileal do ramo inferior da artéria ileocólica
+FJ2058	Circulatório — artérias e coração	Distal perforating artery	→ Artéria perfurante distal
+FJ2064	Circulatório — artérias e coração	Distal perforating artery	→ Artéria perfurante distal
+FJ2113	Circulatório — veias	Tributary of plantar venous arch	→ Tributária do arco venoso plantar
+FJ2115	Circulatório — veias	Tributary of plantar venous arch	→ Tributária do arco venoso plantar
+FJ2160	Circulatório — veias	Tributary of plantar venous arch	→ Tributária do arco venoso plantar
+FJ2165	Circulatório — veias	Tributary of plantar venous arch	→ Tributária do arco venoso plantar
+FJ2394	Circulatório — artérias e coração	Right lobe branch of right hepatic artery	→ Ramo lobar do ramo direito da artéria hepática própria
+FJ2409	Circulatório — veias	Hepatovenous segment VII	→ Segmento hepático (venoso) VII	(segmento do fígado definido pela drenagem venosa)
+FJ2417	Circulatório — artérias e coração	Left anterior cusp of pulmonary valve	→ Válvula semilunar anterior esquerda da valva do tronco pulmonar	(nomenclatura antiga das válvulas semilunares)
+FJ2418	Circulatório — artérias e coração	Anterolateral head of lateral papillary muscle of left ventricle	→ Cabeça anterolateral do músculo papilar lateral do ventrículo esquerdo
+FJ2426	Circulatório — artérias e coração	Left posterior cusp of aortic valve	→ Válvula semilunar posterior esquerda da valva da aorta	(nomenclatura antiga das válvulas semilunares)
+FJ2427	Circulatório — artérias e coração	Posterior cusp of pulmonary valve	→ Válvula semilunar posterior da valva do tronco pulmonar	(nomenclatura antiga das válvulas semilunares)
+FJ2428	Circulatório — artérias e coração	Wall of ventricle	→ Parede do ventrículo	(a fonte não diz se é o direito ou o esquerdo)
+FJ2429	Circulatório — artérias e coração	Lateral papillary muscle of left ventricle	→ Músculo papilar lateral do ventrículo esquerdo	(na TA: músculo papilar anterior do ventrículo esquerdo)
+FJ2431	Circulatório — artérias e coração	Right posterior cusp of aortic valve	→ Válvula semilunar posterior direita da valva da aorta	(nomenclatura antiga das válvulas semilunares)
+FJ2434	Circulatório — artérias e coração	Right anterior cusp of pulmonary valve	→ Válvula semilunar anterior direita da valva do tronco pulmonar	(nomenclatura antiga das válvulas semilunares)
+FJ2435	Circulatório — artérias e coração	Anterior cusp of aortic valve	→ Válvula semilunar anterior da valva da aorta	(nomenclatura antiga das válvulas semilunares)
+FJ2539	Respiratório	Right main bronchus proper	→ Brônquio principal direito (porção própria)	(a fonte separa "main bronchus" e "main bronchus proper")
+FJ2556	Esquelético	Left lateral nasal cartilage	→ Cartilagem nasal lateral esquerda	(na TA atual: processo lateral da cartilagem do septo nasal)
+FJ2558	Esquelético	Right lateral nasal cartilage	→ Cartilagem nasal lateral direita	(na TA atual: processo lateral da cartilagem do septo nasal)
+FJ2630	Digestório	Pancreatic duct tree	→ Ductos pancreáticos (ramificações)
+FJ2703	Circulatório — veias	Left marginal vein	→ Veia marginal esquerda (do coração)
+FJ2704	Circulatório — veias	Left marginal vein	→ Veia marginal esquerda (do coração)
+FJ2705	Circulatório — veias	Left marginal vein	→ Veia marginal esquerda (do coração)
+FJ2727	Circulatório — veias	Right marginal vein	→ Veia marginal direita (do coração)
+FJ2728	Circulatório — veias	Right marginal vein	→ Veia marginal direita (do coração)
+FJ2729	Circulatório — veias	Right marginal vein	→ Veia marginal direita (do coração)
+FJ2732	Circulatório — artérias e coração	Septal branch of anterior interventricular artery	→ Ramos septais do ramo interventricular anterior
+FJ2733	Circulatório — artérias e coração	Septal branch of anterior interventricular artery	→ Ramos septais do ramo interventricular anterior
+FJ2734	Circulatório — artérias e coração	Septal branch of anterior interventricular artery	→ Ramos septais do ramo interventricular anterior
+FJ2818	Circulatório — veias	Hepatovenous segment II	→ Segmento hepático (venoso) II	(segmento do fígado definido pela drenagem venosa)
+FJ2819	Circulatório — veias	Hepatovenous segment III	→ Segmento hepático (venoso) III	(segmento do fígado definido pela drenagem venosa)
+FJ2820	Circulatório — veias	Hepatovenous segment IV	→ Segmento hepático (venoso) IV	(segmento do fígado definido pela drenagem venosa)
+FJ2821	Circulatório — veias	Hepatovenous segment V	→ Segmento hepático (venoso) V	(segmento do fígado definido pela drenagem venosa)
+FJ2822	Circulatório — veias	Hepatovenous segment VI	→ Segmento hepático (venoso) VI	(segmento do fígado definido pela drenagem venosa)
+FJ2823	Circulatório — veias	Hepatovenous segment VIII	→ Segmento hepático (venoso) VIII	(segmento do fígado definido pela drenagem venosa)
+FJ2824	Circulatório — veias	Hepatovenous segment VIII	→ Segmento hepático (venoso) VIII	(segmento do fígado definido pela drenagem venosa)
+FJ2991	Circulatório — artérias e coração	Lateral branch of right superior segmental artery	→ Ramo lateral da artéria segmentar superior direita (pulmonar)
+FJ2992	Circulatório — artérias e coração	Lateral branch of right superior segmental artery	→ Ramo lateral da artéria segmentar superior direita (pulmonar)
+FJ2993	Circulatório — artérias e coração	Lateral branch of right superior segmental artery	→ Ramo lateral da artéria segmentar superior direita (pulmonar)
+FJ2994	Circulatório — artérias e coração	Medial branch of right superior segmental artery	→ Ramo medial da artéria segmentar superior direita (pulmonar)
+FJ2995	Circulatório — artérias e coração	Medial branch of right superior segmental artery	→ Ramo medial da artéria segmentar superior direita (pulmonar)
+FJ2996	Circulatório — artérias e coração	Medial branch of right superior segmental artery	→ Ramo medial da artéria segmentar superior direita (pulmonar)
+FJ2997	Circulatório — artérias e coração	Superior branch of right superior segmental artery	→ Ramo superior da artéria segmentar superior direita (pulmonar)
+FJ2998	Circulatório — artérias e coração	Superior branch of right superior segmental artery	→ Ramo superior da artéria segmentar superior direita (pulmonar)
+FJ2999	Circulatório — artérias e coração	Superior branch of right superior segmental artery	→ Ramo superior da artéria segmentar superior direita (pulmonar)
+FJ3001	Circulatório — artérias e coração	Lateral branch of right anterior basal segmental artery	→ Ramo lateral da artéria segmentar basilar anterior direita (pulmonar)
+FJ3002	Circulatório — artérias e coração	Basal branch of right anterior basal segmental artery	→ Ramo basilar da artéria segmentar basilar anterior direita (pulmonar)
+FJ3003	Circulatório — artérias e coração	Basal branch of right anterior basal segmental artery	→ Ramo basilar da artéria segmentar basilar anterior direita (pulmonar)
+FJ3004	Circulatório — artérias e coração	Lateral branch of right lateral basal segmental artery	→ Ramo lateral da artéria segmentar basilar lateral direita (pulmonar)
+FJ3005	Circulatório — artérias e coração	Lateral branch of right lateral basal segmental artery	→ Ramo lateral da artéria segmentar basilar lateral direita (pulmonar)
+FJ3006	Circulatório — artérias e coração	Lateral branch of right lateral basal segmental artery	→ Ramo lateral da artéria segmentar basilar lateral direita (pulmonar)
+FJ3007	Circulatório — artérias e coração	Lateral branch of right lateral basal segmental artery	→ Ramo lateral da artéria segmentar basilar lateral direita (pulmonar)
+FJ3008	Circulatório — artérias e coração	Mediobasal branch of right posterior basal segmental artery	→ Ramo mediobasilar da artéria segmentar basilar posterior direita (pulmonar)
+FJ3009	Circulatório — artérias e coração	Accessory subsuperior branch of right posterior basal segmental artery	→ Ramo subsuperior acessório da artéria segmentar basilar posterior direita (pulmonar)
+FJ3010	Circulatório — artérias e coração	Accessory subsuperior branch of right posterior basal segmental artery	→ Ramo subsuperior acessório da artéria segmentar basilar posterior direita (pulmonar)
+FJ3012	Circulatório — artérias e coração	Mediobasal branch of right posterior basal segmental artery	→ Ramo mediobasilar da artéria segmentar basilar posterior direita (pulmonar)
+FJ3013	Circulatório — artérias e coração	Laterobasal branch of right posterior basal segmental artery	→ Ramo laterobasilar da artéria segmentar basilar posterior direita (pulmonar)
+FJ3014	Circulatório — artérias e coração	Laterobasal branch of right posterior basal segmental artery	→ Ramo laterobasilar da artéria segmentar basilar posterior direita (pulmonar)
+FJ3071	Digestório	Anterior superior tributary of right hepatic biliary tree	→ Tributária anterossuperior do ducto hepático direito
+FJ3072	Digestório	Anterior inferior tributary of right hepatic biliary tree	→ Tributária anteroinferior do ducto hepático direito
+FJ3073	Circulatório — veias	Anterior superior segmental branch of right portal vein	→ Ramo segmentar anterossuperior do ramo direito da veia porta
+FJ3074	Circulatório — veias	Anterior inferior segmental branch of right portal vein	→ Ramo segmentar anteroinferior do ramo direito da veia porta
+FJ3075	Circulatório — artérias e coração	Anterior inferior segmental hepatic artery	→ Artéria segmentar hepática anteroinferior
+FJ3076	Circulatório — artérias e coração	Anterior superior segmental hepatic artery	→ Artéria segmentar hepática anterossuperior
+FJ3082	Circulatório — veias	Pre-hepatic portal vein	→ Veia porta (antes do fígado)
+FJ3083	Circulatório — veias	Anterior inferior segmental tributary of middle hepatic vein	→ Tributária segmentar anteroinferior da veia hepática intermédia
+FJ3084	Circulatório — veias	Medial inferior segmental tributary of middle hepatic vein	→ Tributária segmentar medioinferior da veia hepática intermédia
+FJ3085	Circulatório — veias	Medial inferior segmental tributary of middle hepatic vein	→ Tributária segmentar medioinferior da veia hepática intermédia
+FJ3086	Circulatório — veias	Anterior inferior segmental tributary of middle hepatic vein	→ Tributária segmentar anteroinferior da veia hepática intermédia
+FJ3088	Digestório	Lateral superior tributary of left hepatic biliary tree	→ Tributária laterossuperior do ducto hepático esquerdo
+FJ3089	Digestório	Lateral inferior tributary of left hepatic biliary tree	→ Tributária lateroinferior do ducto hepático esquerdo
+FJ3090	Digestório	Lateral superior tributary of left hepatic biliary tree	→ Tributária laterossuperior do ducto hepático esquerdo
+FJ3091	Circulatório — artérias e coração	Lateral superior segmental hepatic artery	→ Artéria segmentar hepática laterossuperior
+FJ3092	Circulatório — artérias e coração	Lateral inferior segmental hepatic artery	→ Artéria segmentar hepática lateroinferior
+FJ3093	Circulatório — artérias e coração	Lateral superior segmental hepatic artery	→ Artéria segmentar hepática laterossuperior
+FJ3097	Circulatório — veias	Lateral inferior segmental tributary of left hepatic vein	→ Tributária segmentar lateroinferior da veia hepática esquerda
+FJ3098	Circulatório — veias	Lateral superior segmental tributary of left hepatic vein	→ Tributária segmentar laterossuperior da veia hepática esquerda
+FJ3099	Circulatório — veias	Lateral inferior segmental tributary of left hepatic vein	→ Tributária segmentar lateroinferior da veia hepática esquerda
+FJ3100	Circulatório — veias	Lateral inferior segmental tributary of left hepatic vein	→ Tributária segmentar lateroinferior da veia hepática esquerda
+FJ3101	Circulatório — veias	Medial superior segmental tributary of left hepatic vein	→ Tributária segmentar mediossuperior da veia hepática esquerda
+FJ3103	Digestório	Medial inferior tributary of left hepatic biliary tree	→ Tributária medioinferior do ducto hepático esquerdo
+FJ3104	Digestório	Medial superior tributary of left hepatic biliary tree	→ Tributária mediossuperior do ducto hepático esquerdo
+FJ3105	Digestório	Medial superior tributary of left hepatic biliary tree	→ Tributária mediossuperior do ducto hepático esquerdo
+FJ3106	Circulatório — artérias e coração	Medial inferior segmental hepatic artery	→ Artéria segmentar hepática medioinferior
+FJ3107	Circulatório — artérias e coração	Medial superior segmental hepatic artery	→ Artéria segmentar hepática mediossuperior
+FJ3108	Digestório	Posterior inferior tributary of right hepatic biliary tree	→ Tributária posteroinferior do ducto hepático direito
+FJ3109	Digestório	Posterior superior tributary of right hepatic biliary tree	→ Tributária posterossuperior do ducto hepático direito
+FJ3110	Digestório	Posterior superior tributary of right hepatic biliary tree	→ Tributária posterossuperior do ducto hepático direito
+FJ3111	Circulatório — veias	Posterior inferior segmental branch of right portal vein	→ Ramo segmentar posteroinferior do ramo direito da veia porta
+FJ3112	Circulatório — veias	Posterior superior segmental branch of right portal vein	→ Ramo segmentar posterossuperior do ramo direito da veia porta
+FJ3113	Circulatório — veias	Posterior superior segmental branch of right portal vein	→ Ramo segmentar posterossuperior do ramo direito da veia porta
+FJ3114	Circulatório — artérias e coração	Posterior inferior segmental hepatic artery	→ Artéria segmentar hepática posteroinferior
+FJ3115	Circulatório — artérias e coração	Posterior superior segmental hepatic artery	→ Artéria segmentar hepática posterossuperior
+FJ3116	Circulatório — artérias e coração	Posterior superior segmental hepatic artery	→ Artéria segmentar hepática posterossuperior
+FJ3118	Circulatório — veias	Posterior inferior segmental tributary of right hepatic vein	→ Tributária segmentar posteroinferior da veia hepática direita
+FJ3119	Circulatório — veias	Posterior superior segmental tributary of right hepatic vein	→ Tributária segmentar posterossuperior da veia hepática direita
+FJ3120	Circulatório — veias	Posterior inferior segmental tributary of right hepatic vein	→ Tributária segmentar posteroinferior da veia hepática direita
+FJ3121	Circulatório — veias	Anterior superior segmental tributary of right hepatic vein	→ Tributária segmentar anterossuperior da veia hepática direita
+FJ3125	Circulatório — veias	Lateral inferior segmental branch of left portal vein	→ Ramo segmentar lateroinferior do ramo esquerdo da veia porta
+FJ3126	Circulatório — veias	Lateral superior segmental branch of left portal vein	→ Ramo segmentar laterossuperior do ramo esquerdo da veia porta
+FJ3127	Circulatório — veias	Medial superior segmental branch of left portal vein	→ Ramo segmentar mediossuperior do ramo esquerdo da veia porta
+FJ3128	Circulatório — veias	Medial inferior segmental branch of left portal vein	→ Ramo segmentar medioinferior do ramo esquerdo da veia porta
+FJ3129	Urinário	Left adrenal gland	→ Glândula suprarrenal esquerda	(é endócrina; está no urinário por ficar colada ao rim)
+FJ3130	Urinário	Right adrenal gland	→ Glândula suprarrenal direita	(é endócrina; está no urinário por ficar colada ao rim)
+FJ3211	Esquelético	Intervertebral disk	→ Disco intervertebral	(a fonte não diz entre quais vértebras)
+FJ3414	Circulatório — artérias e coração	Ascending branch of inferior branch of ileocolic artery	→ Ramo ascendente do ramo inferior da artéria ileocólica
+FJ3481	Circulatório — artérias e coração	Ureteric segment of left renal artery	→ Ramo uretérico da artéria renal esquerda
+FJ3581	Circulatório — artérias e coração	Ureteric segment of right renal artery	→ Ramo uretérico da artéria renal direita
+FJ3582	Circulatório — artérias e coração	Ureteric segment of right renal artery	→ Ramo uretérico da artéria renal direita
+
+Sem tradução (aparecem em inglês no app): 0
+
+

@@ -1,0 +1,8 @@
+{
+  "appId": "br.estudo.atlasanatomia",
+  "appName": "Atlas Anatomia",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#f4f1ea"
+  }
+}

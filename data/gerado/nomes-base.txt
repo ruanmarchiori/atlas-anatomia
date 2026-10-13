@@ -1,0 +1,1035 @@
+esqueletico	-	atlas
+esqueletico	-	axis
+esqueletico	-	body of sternum
+esqueletico	L	calcaneus
+esqueletico	L	capitate
+esqueletico	L	clavicle
+esqueletico	L	cuboid bone
+esqueletico	L	distal phalanx of big toe
+esqueletico	L	distal phalanx of fourth toe
+esqueletico	L	distal phalanx of index finger
+esqueletico	L	distal phalanx of little finger
+esqueletico	L	distal phalanx of little toe
+esqueletico	L	distal phalanx of middle finger
+esqueletico	L	distal phalanx of ring finger
+esqueletico	L	distal phalanx of second toe
+esqueletico	L	distal phalanx of third toe
+esqueletico	L	distal phalanx of thumb
+esqueletico	L	eighth rib
+esqueletico	-	eighth thoracic vertebra
+esqueletico	L	eleventh rib
+esqueletico	-	eleventh thoracic vertebra
+esqueletico	-	ethmoid
+esqueletico	L	femur
+esqueletico	L	fibula
+esqueletico	-	fifth cervical vertebra
+esqueletico	L	fifth costal cartilage
+esqueletico	-	fifth lumbar vertebra
+esqueletico	L	fifth metacarpal bone
+esqueletico	L	fifth metatarsal bone
+esqueletico	L	fifth rib
+esqueletico	-	fifth thoracic vertebra
+esqueletico	L	first costal cartilage
+esqueletico	-	first lumbar vertebra
+esqueletico	L	first metacarpal bone
+esqueletico	L	first metatarsal bone
+esqueletico	L	first rib
+esqueletico	-	first thoracic vertebra
+esqueletico	-	fourth cervical vertebra
+esqueletico	L	fourth costal cartilage
+esqueletico	-	fourth lumbar vertebra
+esqueletico	L	fourth metacarpal bone
+esqueletico	L	fourth metatarsal bone
+esqueletico	L	fourth rib
+esqueletico	-	fourth thoracic vertebra
+esqueletico	-	frontal bone
+esqueletico	L	hamate
+esqueletico	L	hip bone
+esqueletico	L	humerus
+esqueletico	-	hyoid bone
+esqueletico	L	inferior nasal concha
+esqueletico	L	intermediate cuneiform bone
+esqueletico	L	interosseous membrane of forearm
+esqueletico	L	interosseous membrane of leg
+esqueletico	-	intervertebral disk
+esqueletico	-	intervertebral disk of axis
+esqueletico	-	intervertebral disk of eighth thoracic vertebra
+esqueletico	-	intervertebral disk of eleventh thoracic vertebra
+esqueletico	-	intervertebral disk of fifth cervical vertebra
+esqueletico	-	intervertebral disk of fifth lumbar vertebra
+esqueletico	-	intervertebral disk of fifth thoracic vertebra
+esqueletico	-	intervertebral disk of first lumbar vertebra
+esqueletico	-	intervertebral disk of first thoracic vertebra
+esqueletico	-	intervertebral disk of fourth cervical vertebra
+esqueletico	-	intervertebral disk of fourth lumbar vertebra
+esqueletico	-	intervertebral disk of fourth thoracic vertebra
+esqueletico	-	intervertebral disk of ninth thoracic vertebra
+esqueletico	-	intervertebral disk of second lumbar vertebra
+esqueletico	-	intervertebral disk of second thoracic vertebra
+esqueletico	-	intervertebral disk of seventh cervical vertebra
+esqueletico	-	intervertebral disk of seventh thoracic vertebra
+esqueletico	-	intervertebral disk of sixth cervical vertebra
+esqueletico	-	intervertebral disk of sixth thoracic vertebra
+esqueletico	-	intervertebral disk of tenth thoracic vertebra
+esqueletico	-	intervertebral disk of third cervical vertebra
+esqueletico	-	intervertebral disk of third lumbar vertebra
+esqueletico	-	intervertebral disk of third thoracic vertebra
+esqueletico	L	lacrimal bone
+esqueletico	L	lateral cuneiform bone
+esqueletico	L	lateral nasal cartilage
+esqueletico	L	long plantar ligament
+esqueletico	L	lower central secondary incisor tooth
+esqueletico	L	lower first secondary molar tooth
+esqueletico	L	lower first secondary premolar tooth
+esqueletico	L	lower lateral secondary incisor tooth
+esqueletico	L	lower second secondary molar tooth
+esqueletico	L	lower second secondary premolar tooth
+esqueletico	L	lower secondary canine tooth
+esqueletico	L	lunate
+esqueletico	L	major alar cartilage
+esqueletico	-	mandible
+esqueletico	-	manubrium
+esqueletico	L	maxilla
+esqueletico	L	medial cuneiform bone
+esqueletico	-	median cricothyroid ligament
+esqueletico	L	middle phalanx of fourth toe
+esqueletico	L	middle phalanx of index finger
+esqueletico	L	middle phalanx of little finger
+esqueletico	L	middle phalanx of little toe
+esqueletico	L	middle phalanx of middle finger
+esqueletico	L	middle phalanx of ring finger
+esqueletico	L	middle phalanx of second toe
+esqueletico	L	middle phalanx of third toe
+esqueletico	L	nasal bone
+esqueletico	L	navicular bone of foot
+esqueletico	L	ninth rib
+esqueletico	-	ninth thoracic vertebra
+esqueletico	-	occipital bone
+esqueletico	L	palatine bone
+esqueletico	L	parietal bone
+esqueletico	L	patella
+esqueletico	L	pisiform
+esqueletico	L	proximal phalanx of big toe
+esqueletico	L	proximal phalanx of fourth toe
+esqueletico	L	proximal phalanx of index finger
+esqueletico	L	proximal phalanx of little finger
+esqueletico	L	proximal phalanx of little toe
+esqueletico	L	proximal phalanx of middle finger
+esqueletico	L	proximal phalanx of ring finger
+esqueletico	L	proximal phalanx of second toe
+esqueletico	L	proximal phalanx of third toe
+esqueletico	L	proximal phalanx of thumb
+esqueletico	L	radius
+esqueletico	-	sacrum
+esqueletico	L	scaphoid
+esqueletico	L	scapula
+esqueletico	L	second costal cartilage
+esqueletico	-	second lumbar vertebra
+esqueletico	L	second metacarpal bone
+esqueletico	L	second metatarsal bone
+esqueletico	L	second rib
+esqueletico	-	second thoracic vertebra
+esqueletico	-	septal nasal cartilage
+esqueletico	L	sesamoid bone of foot
+esqueletico	-	seventh cervical vertebra
+esqueletico	L	seventh costal cartilage
+esqueletico	L	seventh rib
+esqueletico	-	seventh thoracic vertebra
+esqueletico	-	sixth cervical vertebra
+esqueletico	L	sixth costal cartilage
+esqueletico	L	sixth rib
+esqueletico	-	sixth thoracic vertebra
+esqueletico	-	sphenoid bone
+esqueletico	L	stylohyoid ligament
+esqueletico	L	talus
+esqueletico	L	temporal bone
+esqueletico	L	tenth rib
+esqueletico	-	tenth thoracic vertebra
+esqueletico	-	third cervical vertebra
+esqueletico	L	third costal cartilage
+esqueletico	-	third lumbar vertebra
+esqueletico	L	third metacarpal bone
+esqueletico	L	third metatarsal bone
+esqueletico	L	third rib
+esqueletico	-	third thoracic vertebra
+esqueletico	L	tibia
+esqueletico	L	trapezium
+esqueletico	L	trapezoid
+esqueletico	L	triquetral
+esqueletico	L	trochlea of superior oblique
+esqueletico	L	twelfth rib
+esqueletico	-	twelfth thoracic vertebra
+esqueletico	L	ulna
+esqueletico	L	upper central secondary incisor tooth
+esqueletico	L	upper first secondary molar tooth
+esqueletico	L	upper first secondary premolar tooth
+esqueletico	L	upper lateral secondary incisor tooth
+esqueletico	L	upper second secondary molar tooth
+esqueletico	L	upper second secondary premolar tooth
+esqueletico	L	upper secondary canine tooth
+esqueletico	-	vomer
+esqueletico	-	xiphoid process
+esqueletico	L	zygomatic bone
+muscular	L	abdominal part of pectoralis major
+muscular	L	abductor digiti minimi of foot
+muscular	L	abductor digiti minimi of hand
+muscular	L	abductor hallucis
+muscular	L	abductor pollicis brevis
+muscular	L	abductor pollicis longus
+muscular	L	acromial part of deltoid
+muscular	L	adductor brevis
+muscular	L	adductor longus
+muscular	L	adductor magnus
+muscular	L	adductor minimus
+muscular	L	anconeus
+muscular	L	aryepiglotticus
+muscular	L	ascending part of trapezius
+muscular	L	brachialis
+muscular	L	brachioradialis
+muscular	L	calcaneal tendon
+muscular	L	cervical rotator
+muscular	L	check ligament of lateral rectus
+muscular	L	check ligament of medial rectus
+muscular	L	clavicular part of deltoid
+muscular	L	clavicular part of pectoralis major
+muscular	L	coccygeus
+muscular	L	common tendinous ring
+muscular	L	coracobrachialis
+muscular	L	descending part of trapezius
+muscular	-	diaphragm
+muscular	L	digastric
+muscular	L	extensor carpi radialis brevis
+muscular	L	extensor carpi radialis longus
+muscular	L	extensor carpi ulnaris
+muscular	L	extensor digiti minimi
+muscular	L	extensor digitorum
+muscular	L	extensor digitorum longus
+muscular	L	extensor hallucis brevis
+muscular	L	extensor hallucis longus
+muscular	L	extensor indicis
+muscular	L	extensor pollicis brevis
+muscular	L	extensor pollicis longus
+muscular	-	external anal sphincter
+muscular	-	external intercostal muscle
+muscular	L	external oblique
+muscular	L	fibularis brevis
+muscular	L	fibularis longus
+muscular	L	fibularis tertius
+muscular	L	first lumbrical of foot
+muscular	L	first plantar interosseous of foot
+muscular	L	flexor accessorius
+muscular	L	flexor carpi radialis
+muscular	L	flexor digiti minimi brevis of foot
+muscular	L	flexor digiti minimi brevis of hand
+muscular	L	flexor digitorum brevis
+muscular	L	flexor digitorum longus
+muscular	L	flexor digitorum profundus
+muscular	L	flexor digitorum superficialis
+muscular	L	flexor hallucis longus
+muscular	L	flexor pollicis brevis
+muscular	L	flexor pollicis longus
+muscular	L	flexor retinaculum of wrist
+muscular	L	fourth lumbrical of foot
+muscular	L	gemellus inferior
+muscular	L	gemellus superior
+muscular	L	genioglossus
+muscular	L	geniohyoid
+muscular	L	gluteus maximus
+muscular	L	gluteus medius
+muscular	L	gluteus minimus
+muscular	L	gracilis
+muscular	L	humeral head of flexor carpi ulnaris
+muscular	L	humeral head of pronator teres
+muscular	L	hyoglossus
+muscular	L	iliacus
+muscular	L	iliococcygeus
+muscular	L	iliocostalis cervicis
+muscular	L	iliocostalis lumborum
+muscular	L	iliocostalis thoracis
+muscular	L	iliotibial tract
+muscular	L	inferior oblique
+muscular	L	inferior oblique part of longus colli
+muscular	L	inferior pharyngeal constrictor
+muscular	L	inferior rectus
+muscular	L	infraspinatus muscle
+muscular	-	innermost intercostal muscle
+muscular	L	intermediate tendon
+muscular	-	internal intercostal muscle
+muscular	L	interspinalis thoracis
+muscular	L	lateral crico-arytenoid
+muscular	L	lateral head of flexor hallucis brevis
+muscular	L	lateral head of gastrocnemius
+muscular	L	lateral head of triceps brachii
+muscular	-	lateral lumbar intertransversarius
+muscular	L	lateral rectus
+muscular	L	levator palpebrae superioris
+muscular	L	levator scapulae
+muscular	L	levator veli palatini
+muscular	-	linea alba
+muscular	L	long head of biceps brachii
+muscular	L	long head of biceps femoris
+muscular	L	long head of triceps brachii
+muscular	L	longissimus capitis
+muscular	L	longissimus cervicis
+muscular	L	longissimus thoracis
+muscular	L	longus capitis
+muscular	L	lumbar rotator
+muscular	L	medial head of flexor hallucis brevis
+muscular	L	medial head of gastrocnemius
+muscular	L	medial head of triceps brachii
+muscular	-	medial lumbar intertransversarius
+muscular	L	medial rectus
+muscular	L	middle pharyngeal constrictor
+muscular	L	mylohyoid
+muscular	L	oblique arytenoid
+muscular	L	oblique head of adductor hallucis
+muscular	L	oblique head of adductor pollicis
+muscular	L	oblique part of cricothyroid
+muscular	L	obliquus capitis inferior
+muscular	L	obliquus capitis superior
+muscular	L	obturator externus
+muscular	L	obturator internus
+muscular	L	omohyoid
+muscular	L	opponens digiti minimi of foot
+muscular	L	opponens digiti minimi of hand
+muscular	L	opponens pollicis
+muscular	L	palatopharyngeus
+muscular	L	palmaris longus
+muscular	-	part of external intercostal muscle
+muscular	-	part of innermost intercostal muscle
+muscular	-	part of internal intercostal muscle
+muscular	-	part of lateral lumbar intertransversarius
+muscular	-	part of medial lumbar intertransversarius
+muscular	-	part of perineal muscle
+muscular	-	part of set of anterior cervical intertransversarii
+muscular	-	part of set of interspinales cervicis
+muscular	-	part of set of interspinales lumborum
+muscular	-	part of set of posterior cervical intertransversarii
+muscular	-	part of spinalis
+muscular	-	part of tendinous arch of levator ani
+muscular	-	part of thoracic rotator
+muscular	L	pectineus
+muscular	L	pectoralis minor
+muscular	-	pharyngeal raphe
+muscular	L	piriformis
+muscular	L	plantaris
+muscular	L	platysma
+muscular	L	popliteus
+muscular	L	posterior crico-arytenoid
+muscular	L	pronator quadratus
+muscular	L	psoas major
+muscular	L	pterygomandibular raphe
+muscular	L	pubococcygeus
+muscular	L	puborectalis
+muscular	L	quadratus femoris
+muscular	L	rectus capitis anterior
+muscular	L	rectus capitis lateralis
+muscular	L	rectus capitis posterior major
+muscular	L	rectus capitis posterior minor
+muscular	L	rectus femoris
+muscular	L	rhomboid major
+muscular	L	rhomboid minor
+muscular	L	salpingopharyngeus
+muscular	L	sartorius
+muscular	L	scalenus anterior
+muscular	L	scalenus medius
+muscular	L	scalenus posterior
+muscular	L	second lumbrical of foot
+muscular	L	second plantar interosseous of foot
+muscular	L	semimembranosus
+muscular	L	semispinalis capitis
+muscular	L	semispinalis cervicis
+muscular	L	semispinalis thoracis
+muscular	L	semitendinosus
+muscular	L	serratus anterior
+muscular	L	serratus posterior inferior
+muscular	L	serratus posterior superior
+muscular	-	set of anterior cervical intertransversarii
+muscular	L	set of dorsal interossei of hand
+muscular	-	set of interspinales cervicis
+muscular	-	set of interspinales lumborum
+muscular	L	set of levatores costarum breves
+muscular	L	set of levatores costarum longi
+muscular	L	set of lumbricals of hand
+muscular	L	set of palmar interossei of hand
+muscular	-	set of posterior cervical intertransversarii
+muscular	L	short head of biceps brachii
+muscular	L	short head of biceps femoris
+muscular	L	soleus
+muscular	L	spinal part of deltoid
+muscular	-	spinalis
+muscular	L	spinalis thoracis
+muscular	L	splenius capitis
+muscular	L	splenius cervicis
+muscular	L	sternocleidomastoid
+muscular	L	sternocostal part of pectoralis major
+muscular	L	sternohyoid
+muscular	L	sternothyroid
+muscular	L	straight part of cricothyroid
+muscular	L	stylohyoid
+muscular	L	stylopharyngeus
+muscular	L	subclavius
+muscular	L	subscapularis
+muscular	L	superficial head of flexor pollicis brevis
+muscular	L	superior oblique
+muscular	L	superior oblique part of longus colli
+muscular	L	superior pharyngeal constrictor
+muscular	L	superior rectus
+muscular	L	supinator
+muscular	L	supraspinatus
+muscular	-	taenia libera
+muscular	-	taenia mesocolica
+muscular	-	taenia omentalis
+muscular	-	tendinous arch of levator ani
+muscular	L	tendon of levator palpebrae superioris
+muscular	L	tensor fasciae latae
+muscular	L	tensor veli palatini
+muscular	L	teres major
+muscular	L	teres minor
+muscular	L	third lumbrical of foot
+muscular	L	third plantar interosseous of foot
+muscular	-	thoracic rotator
+muscular	L	thyro-arytenoid
+muscular	L	thyrohyoid
+muscular	L	tibialis anterior
+muscular	L	tibialis posterior
+muscular	-	transverse arytenoid
+muscular	L	transverse head of adductor hallucis
+muscular	L	transverse head of adductor pollicis
+muscular	L	transverse part of trapezius
+muscular	L	transversus thoracis
+muscular	L	ulnar head of flexor carpi ulnaris
+muscular	L	ulnar head of pronator teres
+muscular	-	uvular muscle
+muscular	L	vastus intermedius
+muscular	L	vastus lateralis
+muscular	L	vastus medialis
+muscular	L	vertical intermediate part of longus colli
+muscular	L	vocalis
+arterias	-	abdominal aorta
+arterias	L	accessory subsuperior branch of posterior basal segmental artery
+arterias	L	acromial branch of thoraco-acromial artery
+arterias	L	anterior basal segmental artery
+arterias	L	anterior branch of anterior segmental artery
+arterias	-	anterior branch of lateral segmental artery
+arterias	-	anterior cecal artery
+arterias	L	anterior cerebral artery
+arterias	L	anterior choroidal artery
+arterias	L	anterior circumflex humeral artery
+arterias	-	anterior communicating artery
+arterias	-	anterior cusp of aortic valve
+arterias	L	anterior cusp of pulmonary valve
+arterias	L	anterior division of renal artery
+arterias	-	anterior inferior cerebellar artery
+arterias	-	anterior inferior pancreaticoduodenal artery
+arterias	-	anterior inferior segmental hepatic artery
+arterias	L	anterior interosseous artery
+arterias	-	anterior leaflet of mitral valve
+arterias	-	anterior leaflet of tricuspid valve
+arterias	L	anterior papillary muscle of ventricle
+arterias	L	anterior parietal artery
+arterias	L	anterior part of apical segmental artery
+arterias	L	anterior segmental artery
+arterias	L	anterior spinal artery
+arterias	-	anterior superior pancreaticoduodenal artery
+arterias	-	anterior superior segmental hepatic artery
+arterias	L	anterior temporal artery
+arterias	L	anterior temporal branch of lateral occipital artery
+arterias	L	anterior tibial artery
+arterias	L	anterior tibial recurrent artery
+arterias	L	anterior ulnar recurrent artery
+arterias	L	anterolateral central branch of middle cerebral artery
+arterias	L	anterolateral head of lateral papillary muscle of ventricle
+arterias	L	apical part of apical segmental artery
+arterias	L	apical part of posterior segmental artery
+arterias	L	apical segmental artery
+arterias	-	appendicular artery
+arterias	-	arch of aorta
+arterias	L	arcuate artery
+arterias	L	arteria princeps pollicis
+arterias	L	arteria radialis indicis
+arterias	-	artery of central sulcus
+arterias	L	artery of postcentral sulcus
+arterias	L	artery of precentral sulcus
+arterias	-	ascending aorta
+arterias	L	ascending branch of colic artery
+arterias	-	ascending branch of inferior branch of ileocolic artery
+arterias	L	axillary artery
+arterias	L	basal branch of anterior basal segmental artery
+arterias	-	basilar artery
+arterias	L	brachial artery
+arterias	-	brachiocephalic artery
+arterias	L	branch of anterior choroidal artery to posterior limb of internal capsule
+arterias	L	branch of middle cerebral artery to angular gyrus
+arterias	-	bronchial artery
+arterias	-	bronchial branch of arch of aorta
+arterias	L	callosomarginal artery
+arterias	-	caudal pancreatic artery
+arterias	L	caudate lobe branch of hepatic artery
+arterias	L	cavity of atrium
+arterias	L	cavity of ventricle
+arterias	-	celiac artery
+arterias	-	celiac trunk
+arterias	L	circumflex branch of coronary artery
+arterias	L	circumflex scapular artery
+arterias	L	colic artery
+arterias	L	common carotid artery
+arterias	-	common hepatic artery
+arterias	L	common iliac artery
+arterias	L	common interosseous artery
+arterias	L	conus artery
+arterias	L	conus branch of anterior interventricular branch of coronary artery
+arterias	L	costocervical trunk
+arterias	L	deep brachial artery
+arterias	L	deep cervical artery
+arterias	L	deep palmar arch
+arterias	L	deep plantar artery
+arterias	L	deltoid branch of thoraco-acromial artery
+arterias	-	descending aorta
+arterias	L	descending branch of colic artery
+arterias	L	descending branch of lateral circumflex femoral artery
+arterias	L	descending genicular artery
+arterias	-	descending thoracic aorta
+arterias	L	diagonal branch of anterior descending branch of coronary artery
+arterias	-	distal perforating artery
+arterias	L	dorsal artery of penis
+arterias	L	dorsal carpal branch of radial artery
+arterias	L	dorsal carpal branch of ulnar artery
+arterias	-	dorsal digital artery of foot
+arterias	-	dorsal pancreatic artery
+arterias	L	dorsal scapular artery
+arterias	L	dorsalis pedis artery
+arterias	-	esophageal artery
+arterias	L	external iliac artery
+arterias	L	femoral artery
+arterias	L	first anterior branch of anterior interventricular branch of coronary artery
+arterias	L	first anterior ventricular branch of coronary artery
+arterias	L	first common palmar digital artery
+arterias	L	first posterior intercostal artery
+arterias	L	first posterior ventricular branch of coronary artery
+arterias	L	first septal branch of posterior interventricular artery
+arterias	L	fourth common palmar digital artery
+arterias	L	gastric artery
+arterias	L	gastro-epiploic artery
+arterias	-	great pancreatic artery
+arterias	-	hepatic artery proper
+arterias	L	hypothalamic branch of posterior communicating artery
+arterias	-	ileal artery
+arterias	-	ileal branch of inferior branch of ileocolic artery
+arterias	-	ileocolic artery
+arterias	-	inferior branch of medial segmental artery
+arterias	L	inferior epigastric artery
+arterias	L	inferior lateral genicular artery
+arterias	-	inferior lingular artery
+arterias	L	inferior medial genicular artery
+arterias	-	inferior mesenteric artery
+arterias	-	inferior pancreatic artery
+arterias	-	inferior pancreaticoduodenal artery
+arterias	L	inferior phrenic artery
+arterias	L	inferior segmental branch of renal artery
+arterias	L	inferior suprarenal artery
+arterias	L	inferior thyroid artery
+arterias	L	inferior ulnar collateral artery
+arterias	L	insular part of middle cerebral artery
+arterias	L	intermediomedial branch of callosomarginal artery
+arterias	L	internal carotid artery
+arterias	L	internal iliac artery
+arterias	L	internal thoracic artery
+arterias	L	lateral basal segmental artery
+arterias	L	lateral branch of anterior basal segmental artery
+arterias	L	lateral branch of lateral basal segmental artery
+arterias	L	lateral branch of pontine artery
+arterias	L	lateral branch of superior cerebellar artery
+arterias	L	lateral branch of superior segmental artery
+arterias	L	lateral circumflex femoral artery
+arterias	L	lateral frontobasal artery
+arterias	-	lateral inferior segmental hepatic artery
+arterias	L	lateral occipital artery
+arterias	L	lateral papillary muscle of ventricle
+arterias	L	lateral plantar artery
+arterias	L	lateral proper palmar digital artery of little finger
+arterias	L	lateral proper palmar digital artery of middle finger
+arterias	L	lateral proper palmar digital artery of ring finger
+arterias	L	lateral superior genicular artery
+arterias	-	lateral superior segmental hepatic artery
+arterias	L	lateral tarsal artery
+arterias	L	lateral thoracic artery
+arterias	L	laterobasal branch of posterior basal segmental artery
+arterias	L	lobe branch of hepatic artery
+arterias	-	lumbar artery
+arterias	-	marginal artery of colon
+arterias	L	marginal branch of coronary artery
+arterias	-	marginal colic artery
+arterias	L	medial basal segmental artery
+arterias	L	medial branch of pontine artery
+arterias	L	medial branch of superior cerebellar artery
+arterias	L	medial branch of superior segmental artery
+arterias	L	medial frontobasal artery
+arterias	-	medial inferior segmental hepatic artery
+arterias	L	medial occipital artery
+arterias	L	medial plantar artery
+arterias	L	medial proper palmar digital artery of index finger
+arterias	L	medial proper palmar digital artery of middle finger
+arterias	L	medial proper palmar digital artery of ring finger
+arterias	L	medial superior genicular artery
+arterias	-	medial superior segmental hepatic artery
+arterias	L	mediobasal branch of posterior basal segmental artery
+arterias	-	middle colic artery
+arterias	L	middle collateral branch of deep brachial artery
+arterias	L	middle genicular artery
+arterias	L	middle suprarenal artery
+arterias	L	middle temporal branch of lateral occipital artery
+arterias	L	middle temporal branch of middle cerebral artery
+arterias	L	musculophrenic artery
+arterias	L	ophthalmic artery
+arterias	L	palmar metacarpal artery
+arterias	L	paracentral branch of callosomarginal artery
+arterias	-	part of anterior inferior cerebellar artery
+arterias	-	part of artery of central sulcus
+arterias	-	part of set of posterior temporal branches of lateral occipital artery
+arterias	L	pectoral branch of thoraco-acromial artery
+arterias	L	pericallosal artery
+arterias	L	plantar arch
+arterias	-	plantar metatarsal artery
+arterias	L	polar temporal artery
+arterias	L	popliteal artery
+arterias	L	postcommunicating part of posterior cerebral artery
+arterias	L	posterior basal segmental artery
+arterias	L	posterior branch of anterior segmental artery
+arterias	-	posterior branch of lateral segmental artery
+arterias	-	posterior cecal artery
+arterias	L	posterior circumflex humeral artery
+arterias	L	posterior communicating artery
+arterias	L	posterior cusp of aortic valve
+arterias	-	posterior cusp of pulmonary valve
+arterias	L	posterior division of renal artery
+arterias	L	posterior inferior cerebellar artery
+arterias	-	posterior inferior pancreaticoduodenal artery
+arterias	-	posterior inferior segmental hepatic artery
+arterias	-	posterior intercostal arteries
+arterias	L	posterior interventricular branch of coronary artery
+arterias	-	posterior leaflet of mitral valve
+arterias	-	posterior leaflet of tricuspid valve
+arterias	L	posterior medial choroidal artery
+arterias	L	posterior papillary muscle of ventricle
+arterias	L	posterior parietal artery
+arterias	L	posterior part of posterior segmental artery
+arterias	L	posterior segmental artery
+arterias	L	posterior segmental branch of renal artery
+arterias	-	posterior superior pancreaticoduodenal artery
+arterias	-	posterior superior segmental hepatic artery
+arterias	L	posterior temporal branch of middle cerebral artery
+arterias	L	posterior tibial artery
+arterias	L	posterior ulnar recurrent artery
+arterias	L	posteromedial branch of callosomarginal artery
+arterias	L	posteromedial central branch of posterior cerebral artery
+arterias	L	precommunicating part of posterior cerebral artery
+arterias	L	precuneal branch of pericallosal artery
+arterias	L	prefrontal artery
+arterias	L	pulmonary artery
+arterias	-	pulmonary trunk
+arterias	L	radial artery
+arterias	L	radial collateral branch of deep brachial artery
+arterias	L	radial recurrent artery
+arterias	L	recurrent interosseous artery
+arterias	L	renal artery
+arterias	L	second anterior branch of anterior interventricular branch of coronary artery
+arterias	L	second common palmar digital artery
+arterias	L	second posterior intercostal artery
+arterias	L	second septal branch of posterior interventricular artery
+arterias	-	septal branch of anterior interventricular artery
+arterias	-	septal leaflet of tricuspid valve
+arterias	L	septal papillary muscle of ventricle
+arterias	-	set of calcaneal branches of posterior tibial artery
+arterias	-	set of common plantar digital arteries
+arterias	-	set of dorsal digital arteries
+arterias	-	set of dorsal metacarpal arteries
+arterias	-	set of oesophageal branches of thoracic aorta
+arterias	-	set of perforating arteries
+arterias	-	set of plantar digital arteries proper
+arterias	-	set of posterior temporal branches of lateral occipital artery
+arterias	-	sigmoid artery
+arterias	L	sphenoid part of middle cerebral artery
+arterias	L	splenial artery
+arterias	-	splenic artery
+arterias	L	subclavian artery
+arterias	L	subcostal artery
+arterias	L	subscapular artery
+arterias	L	superficial cervical artery
+arterias	L	superficial epigastric artery
+arterias	L	superficial medial plantar artery
+arterias	L	superficial palmar arterial arch
+arterias	-	superior branch of medial segmental artery
+arterias	L	superior branch of superior segmental artery
+arterias	L	superior cerebellar artery
+arterias	L	superior epigastric artery
+arterias	L	superior intercostal artery
+arterias	-	superior lingular artery
+arterias	-	superior mesenteric artery
+arterias	-	superior rectal artery
+arterias	L	superior segmental artery
+arterias	L	superior segmental branch of renal artery
+arterias	L	superior ulnar collateral artery
+arterias	L	superior vermian branch of medial branch of superior cerebellar artery
+arterias	L	suprascapular artery
+arterias	L	temporo-occipital branch of middle cerebral artery
+arterias	L	testicular artery
+arterias	L	thalamogeniculate artery
+arterias	L	thalamoperforating artery
+arterias	L	third anterior branch of anterior interventricular branch of coronary artery
+arterias	L	third common palmar digital artery
+arterias	L	thoracodorsal artery
+arterias	L	thyrocervical trunk
+arterias	L	transverse cervical artery
+arterias	L	trunk of anterior interventricular branch of coronary artery
+arterias	L	trunk of coronary artery
+arterias	-	trunk of gastroduodenal artery
+arterias	L	trunk of hepatic artery
+arterias	L	trunk of inferior terminal branch of middle cerebral artery
+arterias	L	trunk of renal artery
+arterias	-	trunk of superior mesenteric artery
+arterias	L	trunk of thoraco-acromial artery
+arterias	L	ulnar artery
+arterias	L	upper lobar artery
+arterias	L	ureteric segment of renal artery
+arterias	L	vertebral artery
+arterias	L	wall of atrium
+arterias	-	wall of ventricle
+veias	-	accessory hemiazygos vein
+veias	L	anterior basal segmental vein
+veias	-	anterior cardiac vein
+veias	L	anterior circumflex humeral vein
+veias	L	anterior inferior segmental branch of portal vein
+veias	-	anterior inferior segmental tributary of middle hepatic vein
+veias	-	anterior interventricular vein
+veias	L	anterior part of apical segmental vein
+veias	-	anterior part of lateral segmental vein
+veias	L	anterior segmental vein
+veias	L	anterior superior segmental branch of portal vein
+veias	L	anterior superior segmental tributary of hepatic vein
+veias	L	anterior tibial vein
+veias	L	apical part of apical segmental vein
+veias	L	apical segmental vein
+veias	L	ascending lumbar vein
+veias	L	axillary vein
+veias	-	azygos vein
+veias	L	basilic vein
+veias	L	brachiocephalic vein
+veias	L	caudate lobe branch of portal vein
+veias	L	cephalic vein
+veias	L	circumflex scapular vein
+veias	L	colic vein
+veias	L	common iliac vein
+veias	-	common palmar digital vein
+veias	-	coronary sinus
+veias	-	deep dorsal vein of penis
+veias	L	deep femoral vein
+veias	L	deep palmar venous arch
+veias	-	dorsal metacarpal vein
+veias	L	dorsal venous arch of foot
+veias	L	dorsal venous network of hand
+veias	L	external iliac vein
+veias	L	femoral vein
+veias	L	fibular vein
+veias	L	gastric vein
+veias	L	gastroepiploic vein
+veias	L	genicular vein
+veias	-	great cardiac vein
+veias	L	great saphenous vein
+veias	-	hemiazygos vein
+veias	-	hepatic portal vein
+veias	L	hepatic vein
+veias	-	hepatovenous segment ii
+veias	-	hepatovenous segment iii
+veias	-	hepatovenous segment iv
+veias	-	hepatovenous segment ix
+veias	-	hepatovenous segment v
+veias	-	hepatovenous segment vi
+veias	-	hepatovenous segment vii
+veias	-	hepatovenous segment viii
+veias	-	ileal vein
+veias	-	ileocolic vein
+veias	L	iliolumbar vein
+veias	L	inferior epigastric vein
+veias	L	inferior gluteal vein
+veias	-	inferior lingular vein
+veias	-	inferior mesenteric vein
+veias	L	inferior part of anterior segmental vein
+veias	-	inferior part of medial segmental vein
+veias	-	inferior phrenic vein
+veias	L	inferior pulmonary vein
+veias	-	inferior vena cava
+veias	L	internal iliac vein
+veias	L	internal jugular vein
+veias	L	internal pudendal vein
+veias	L	internal thoracic vein
+veias	L	lateral basal segmental vein
+veias	L	lateral circumflex femoral vein
+veias	L	lateral inferior segmental branch of portal vein
+veias	L	lateral inferior segmental tributary of hepatic vein
+veias	L	lateral sacral vein
+veias	L	lateral superior segmental branch of portal vein
+veias	L	lateral superior segmental tributary of hepatic vein
+veias	L	lateral thoracic vein
+veias	-	lumbar vein
+veias	L	marginal vein
+veias	L	medial basal segmental vein
+veias	L	medial brachial vein
+veias	L	medial circumflex femoral vein
+veias	L	medial inferior segmental branch of portal vein
+veias	-	medial inferior segmental tributary of middle hepatic vein
+veias	L	medial superior segmental branch of portal vein
+veias	L	medial superior segmental tributary of hepatic vein
+veias	L	median antebrachial vein
+veias	L	median cubital vein
+veias	-	median sacral vein
+veias	-	middle cardiac vein
+veias	-	middle colic vein
+veias	-	middle hepatic vein
+veias	L	musculophrenic vein
+veias	L	obturator vein
+veias	L	palmar metacarpal vein
+veias	-	pancreaticoduodenal vein
+veias	-	plantar metatarsal vein
+veias	L	plantar venous arch of foot
+veias	L	popliteal vein
+veias	L	portal vein
+veias	L	posterior basal segmental vein
+veias	L	posterior inferior segmental branch of portal vein
+veias	L	posterior inferior segmental tributary of hepatic vein
+veias	-	posterior part of lateral segmental vein
+veias	L	posterior segmental vein
+veias	L	posterior superior segmental branch of portal vein
+veias	L	posterior superior segmental tributary of hepatic vein
+veias	L	posterior tibial vein
+veias	L	posterior vein of ventricle
+veias	-	pre-hepatic portal vein
+veias	L	proper palmar digital vein of index finger
+veias	L	proper palmar digital vein of little finger
+veias	L	proper palmar digital vein of middle finger
+veias	L	proper palmar digital vein of ring finger
+veias	L	radial vein
+veias	L	renal vein
+veias	-	set of anterior intercostal veins
+veias	-	set of dorsal digital veins
+veias	-	set of perforating veins
+veias	-	set of plantar digital veins
+veias	-	sigmoid vein
+veias	-	small cardiac vein
+veias	L	small saphenous vein
+veias	-	splenic vein
+veias	L	subclavian vein
+veias	L	subcostal vein
+veias	L	subscapular vein
+veias	L	superficial dorsal vein of penis
+veias	L	superficial epigastric vein
+veias	L	superficial palmar venous arch
+veias	L	superior epigastric vein
+veias	L	superior gluteal vein
+veias	L	superior intercostal vein
+veias	-	superior lingular vein
+veias	-	superior mesenteric vein
+veias	L	superior part of anterior segmental vein
+veias	-	superior part of medial segmental vein
+veias	-	superior phrenic vein
+veias	L	superior pulmonary vein
+veias	-	superior rectal vein
+veias	L	superior segmental vein
+veias	-	superior vena cava
+veias	L	suprarenal vein
+veias	L	suprascapular vein
+veias	L	testicular vein
+veias	L	thoracodorsal vein
+veias	-	tributary of middle hepatic vein
+veias	-	tributary of plantar venous arch
+veias	L	trunk of apical segmental vein
+veias	L	trunk of portal vein
+veias	L	ulnar vein
+nervoso	L	amygdala
+nervoso	L	angular gyrus
+nervoso	L	anterior chamber of eyeball
+nervoso	-	anterior commissure
+nervoso	L	anterior ethmoidal nerve
+nervoso	L	anterior part of superior temporal gyrus
+nervoso	L	brachium of inferior colliculus
+nervoso	L	brachium of superior colliculus
+nervoso	L	caudate nucleus
+nervoso	-	central canal of spinal cord
+nervoso	-	cerebellum
+nervoso	-	cerebral aqueduct
+nervoso	L	choroid
+nervoso	-	choroid plexus of cerebral hemisphere
+nervoso	L	ciliary ganglion
+nervoso	L	cingulate gyrus
+nervoso	-	commissure of fornix of forebrain
+nervoso	L	communicating branch of nasociliary nerve with ciliary ganglion
+nervoso	L	cornea
+nervoso	L	corona ciliaris
+nervoso	-	corpus callosum
+nervoso	L	fornix of forebrain
+nervoso	-	fourth ventricle
+nervoso	L	frontal nerve
+nervoso	L	fusiform gyrus
+nervoso	L	globus pallidus
+nervoso	-	habenula
+nervoso	L	hippocampus
+nervoso	-	hypothalamus
+nervoso	L	inferior branch of oculomotor nerve
+nervoso	L	inferior colliculus
+nervoso	L	inferior frontal gyrus
+nervoso	L	inferior temporal gyrus
+nervoso	L	infratrochlear nerve
+nervoso	L	insula
+nervoso	L	internal capsule
+nervoso	-	interpeduncular fossa
+nervoso	-	interventricular foramen
+nervoso	L	iris
+nervoso	L	lacrimal nerve
+nervoso	-	lamina terminalis
+nervoso	L	lateral geniculate body
+nervoso	L	lateral ventricle
+nervoso	L	lens
+nervoso	L	long ciliary nerve
+nervoso	-	mammillary body
+nervoso	L	medial geniculate body
+nervoso	-	medulla oblongata
+nervoso	-	midbrain
+nervoso	L	middle frontal gyrus
+nervoso	L	middle temporal gyrus
+nervoso	L	nasociliary nerve
+nervoso	L	occipital lobe
+nervoso	L	ophthalmic nerve
+nervoso	-	optic chiasm
+nervoso	L	optic nerve
+nervoso	L	optic part of retina
+nervoso	L	optic tract
+nervoso	-	orbital gyrus
+nervoso	L	parahippocampal gyrus
+nervoso	-	peduncle of midbrain
+nervoso	-	pineal body
+nervoso	-	pons
+nervoso	L	postcentral gyrus
+nervoso	-	posterior commissure
+nervoso	L	posterior ethmoidal nerve
+nervoso	L	posterior part of superior temporal gyrus
+nervoso	L	precentral gyrus
+nervoso	L	putamen
+nervoso	L	sclera
+nervoso	-	septum of telencephalon
+nervoso	-	short ciliary nerve
+nervoso	L	stria medullaris of thalamus
+nervoso	L	stria terminalis
+nervoso	L	superior branch of oculomotor nerve
+nervoso	L	superior colliculus
+nervoso	L	superior frontal gyrus
+nervoso	L	superior parietal lobule
+nervoso	L	supra-orbital nerve
+nervoso	L	supramarginal gyrus
+nervoso	L	supratrochlear nerve
+nervoso	L	suspensory ligament of lens
+nervoso	-	tentorium cerebelli
+nervoso	L	thalamus
+nervoso	-	third ventricle
+nervoso	L	trochlear nerve
+nervoso	-	tuber cinereum
+nervoso	L	vitreous body
+nervoso	L	white matter of cerebral hemisphere
+respiratorio	L	anterior basal segmental bronchial tree
+respiratorio	L	anterior segmental bronchial tree
+respiratorio	L	apical segmental bronchial tree
+respiratorio	L	arytenoid cartilage
+respiratorio	L	conus elasticus
+respiratorio	L	corniculate cartilage
+respiratorio	-	cricoid cartilage
+respiratorio	L	cuneiform cartilage
+respiratorio	-	epiglottis
+respiratorio	-	hyo-epiglottic ligament
+respiratorio	-	inferior lingular bronchial tree
+respiratorio	L	lateral basal segmental bronchial tree
+respiratorio	-	lateral segmental bronchial tree
+respiratorio	L	lateral thyrohyoid ligament
+respiratorio	L	main bronchus
+respiratorio	L	main bronchus proper
+respiratorio	L	medial basal segmental bronchial tree
+respiratorio	-	medial segmental bronchial tree
+respiratorio	-	median thyrohyoid ligament
+respiratorio	L	posterior basal segmental bronchial tree
+respiratorio	L	posterior segmental bronchial tree
+respiratorio	-	superior lingular bronchial tree
+respiratorio	L	superior segmental bronchial tree
+respiratorio	-	thyro-epiglottic ligament
+respiratorio	L	thyrohyoid membrane
+respiratorio	-	thyroid cartilage
+respiratorio	-	trachea
+respiratorio	L	vocal ligament
+digestorio	L	anterior inferior tributary of hepatic biliary tree
+digestorio	L	anterior superior tributary of hepatic biliary tree
+digestorio	-	appendix
+digestorio	-	ascending colon
+digestorio	-	caudate lobe of liver
+digestorio	L	caudate lobe tributary of hepatic biliary tree
+digestorio	-	common hepatic duct
+digestorio	-	cystic duct
+digestorio	-	descending colon
+digestorio	-	distal part of ileum
+digestorio	-	distal part of jejunum
+digestorio	L	duct of caudate lobe of liver
+digestorio	-	duodenum
+digestorio	-	esophagus
+digestorio	-	gallbladder
+digestorio	-	gingiva of lower jaw
+digestorio	-	gingiva of upper jaw
+digestorio	L	hepatic duct
+digestorio	-	ileocecal junction
+digestorio	L	lateral inferior tributary of hepatic biliary tree
+digestorio	L	lateral superior tributary of hepatic biliary tree
+digestorio	L	medial inferior tributary of hepatic biliary tree
+digestorio	L	medial superior tributary of hepatic biliary tree
+digestorio	-	mesentery of small intestine
+digestorio	-	mesoappendix
+digestorio	-	middle part of ileum
+digestorio	-	middle part of jejunum
+digestorio	-	pancreas
+digestorio	-	pancreatic duct
+digestorio	-	pancreatic duct tree
+digestorio	-	parenchyma of pancreas
+digestorio	L	posterior inferior tributary of hepatic biliary tree
+digestorio	L	posterior superior tributary of hepatic biliary tree
+digestorio	-	proximal part of ileum
+digestorio	-	proximal part of jejunum
+digestorio	-	rectum
+digestorio	-	stomach
+digestorio	L	sublingual gland
+digestorio	L	submandibular gland
+digestorio	-	tongue
+digestorio	-	transverse colon
+digestorio	-	transverse mesocolon
+urinario	L	adrenal gland
+urinario	L	kidney
+urinario	L	ureter
+urinario	-	urethra
+urinario	-	urinary bladder
+linfatico	L	lobe of thymus
+linfatico	-	spleen
+outros	-	corpus cavernosum of penis
+outros	-	corpus spongiosum of penis
+outros	L	deferent duct
+outros	L	epididymis
+outros	-	external ear
+outros	-	eyebrow
+outros	-	glans penis
+outros	-	hair of head
+outros	L	lacrimal canaliculus
+outros	L	lacrimal gland
+outros	L	lacrimal lake
+outros	L	lacrimal sac
+outros	-	lip
+outros	L	nasolacrimal duct
+outros	-	pituitary gland
+outros	-	prostate
+outros	-	pubic hair
+outros	L	seminal vesicle
+outros	-	skin
+outros	L	tarsal plate of lower eyelid
+outros	L	tarsal plate of upper eyelid
+outros	L	testis

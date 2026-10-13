@@ -1,0 +1,3 @@
+# Scripts que rodam no Linux/Mac precisam de quebra de linha LF
+gradlew text eol=lf
+*.sh text eol=lf
