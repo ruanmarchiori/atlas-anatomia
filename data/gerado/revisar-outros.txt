@@ -1,4 +1,4 @@
-Peças que ficaram em "outros" (não pertencem a nenhum sistema da lista ou não deu pra classificar): 33
+Peças que ficaram em "outros" (não pertencem a nenhum sistema da lista ou não deu pra classificar): 21
 
 FJ1298	FMA59583	Left lacrimal canaliculus	[cabeca]
 FJ1299	FMA59103	Left lacrimal gland	[cabeca]
@@ -21,15 +21,3 @@ FJ2812	FMA54237	Eyebrow	[cabeca]
 FJ2813	FMA54241	Hair of head	[cabeca]
 FJ2814	FMA59816	Lip	[cabeca]
 FJ2815	FMA54319	Pubic hair	[pelve]
-FJ3132	FMA19618	Corpus cavernosum of penis	[pelve]
-FJ3133	FMA19617	Corpus spongiosum of penis	[pelve]
-FJ3134	FMA18247	Glans penis	[pelve]
-FJ3135	FMA19236	Left deferent duct	[pelve]
-FJ3136	FMA18257	Left epididymis	[pelve]
-FJ3137	FMA19388	Left seminal vesicle	[pelve]
-FJ3138	FMA7212	Left testis	[pelve]
-FJ3139	FMA9600	Prostate	[pelve]
-FJ3140	FMA19235	Right deferent duct	[pelve]
-FJ3141	FMA18256	Right epididymis	[pelve]
-FJ3142	FMA7211	Right testis	[pelve]
-FJ3143	FMA19387	Right seminal vesicle	[pelve]

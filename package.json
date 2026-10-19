@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "dados:catalogo": "node scripts/01-catalogo.mjs",
+    "dados:hra": "node scripts/02-hra-para-obj.mjs",
     "dados:modelos": "node scripts/03-modelos.mjs",
     "build:android": "tsc -b && vite build --mode android",
     "android:sync": "npm run build:android && npx cap sync android",
@@ -16,7 +17,7 @@
     "android:apk": "npm run android:sync && cd android && gradlew.bat assembleRelease",
     "publicar": "npm run build && gh-pages -d dist -t -m \"Publicação do site\"",
     "dados:app": "node scripts/04-catalogo-app.mjs",
-    "dados": "npm run dados:catalogo && npm run dados:modelos && npm run dados:app"
+    "dados": "npm run dados:hra && npm run dados:catalogo && npm run dados:modelos && npm run dados:app"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.3",

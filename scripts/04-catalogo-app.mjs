@@ -88,7 +88,7 @@ function traduzir(p) {
 const NOMES_SISTEMA = {
   esqueletico: 'Esquelético', muscular: 'Muscular', arterias: 'Circulatório — artérias e coração',
   veias: 'Circulatório — veias', nervoso: 'Nervoso e olho', respiratorio: 'Respiratório',
-  digestorio: 'Digestório', urinario: 'Urinário', linfatico: 'Linfático', outros: 'Outros',
+  digestorio: 'Digestório', urinario: 'Urinário', linfatico: 'Linfático', reprodutor: 'Reprodutor', outros: 'Outros',
 };
 const NOMES_REGIAO = {
   cabeca: 'Cabeça', pescoco: 'Pescoço', torax: 'Tórax', abdome: 'Abdome', pelve: 'Pelve',
@@ -110,7 +110,7 @@ for (const p of base.pecas) {
 
 const catalogo = {
   versao: new Date().toISOString().slice(0, 10),
-  credito: 'BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International',
+  credito: 'BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International; órgãos femininos: Human Reference Atlas (HuBMAP), CC BY 4.0',
   alturaCorpo: modelos.alturaCorpo,
   regioes: NOMES_REGIAO,
   sistemas: Object.keys(NOMES_SISTEMA).filter((s) => sistemas[s]).map((s) => {
@@ -132,6 +132,9 @@ const catalogo = {
         pt: t ? t.pt : p.en,
         regiao: p.regiao,
         revisar: !t || t.revisar || !!p.semNomeNaFonte,
+        // 'm'/'f' = só aparece com o corpo masculino/feminino; vazio = nos dois
+        sexo: p.sexo || '',
+        fonte: p.fonte === 'HRA' ? 'HRA' : 'BP3D',
         centro: m.centro,
         tamanho: m.tamanho,
         completo: [porArquivo.completo.findIndex((a) => a.arquivo === m.completo.arquivo), m.completo.indice],

@@ -10,8 +10,8 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
-import type { Peca, Sistema, Versao } from '../catalogo';
-import { COR_SISTEMA } from '../catalogo';
+import type { Peca, Sexo, Sistema, Versao } from '../catalogo';
+import { COR_SISTEMA, doCorpo } from '../catalogo';
 
 export const ESTADO = { normal: 0, hover: 1, selecionada: 2, oculta: 3, esmaecida: 4 } as const;
 
@@ -100,6 +100,7 @@ export class Motor {
   private visiveis = new Set<string>();
   private estados = new Map<string, number>(); // fj → estado especial (hover/selecionada/esmaecida)
   private esmaecerOutras = false;
+  private sexo: Sexo = 'm'; // peças do outro corpo ficam ocultas
   private explosao = 0; // 0..1 aplicada
   private aspecto = 1;
   private layout = new Map<string, { radial: THREE.Vector3; grade: THREE.Vector3; escala: number }>();
@@ -210,6 +211,14 @@ export class Motor {
     this.atualizarTexturas();
   }
 
+  /** Troca o corpo (masculino/feminino): oculta as peças que só existem no outro. */
+  setSexo(sexo: Sexo) {
+    if (sexo === this.sexo) return;
+    this.sexo = sexo;
+    this.layoutSujo = true;
+    this.atualizarTexturas();
+  }
+
   setExplosao(p: number) {
     if (Math.abs(p - this.explosao) < 1e-4) return;
     this.explosao = p;
@@ -228,9 +237,9 @@ export class Motor {
     this.layout.clear();
     const visiveis = this.partes.filter((p) => this.visiveis.has(p.sistema));
     // Ordem fixa dos sistemas; dentro do sistema, por região e tamanho.
-    const ordemSis = ['esqueletico', 'muscular', 'arterias', 'veias', 'nervoso', 'respiratorio', 'digestorio', 'urinario', 'linfatico', 'outros'];
+    const ordemSis = ['esqueletico', 'muscular', 'arterias', 'veias', 'nervoso', 'respiratorio', 'digestorio', 'urinario', 'linfatico', 'reprodutor', 'outros'];
     const ordemReg = ['cabeca', 'pescoco', 'torax', 'abdome', 'pelve', 'membro-superior', 'membro-inferior'];
-    const grupos = ordemSis.map((s) => visiveis.filter((p) => p.sistema === s).flatMap((p) => p.pecas))
+    const grupos = ordemSis.map((s) => visiveis.filter((p) => p.sistema === s).flatMap((p) => p.pecas.filter((x) => doCorpo(x, this.sexo))))
       .filter((g) => g.length)
       .map((g) => [...g].sort((a, b) => ordemReg.indexOf(a.regiao) - ordemReg.indexOf(b.regiao) || Math.max(...b.tamanho) - Math.max(...a.tamanho)));
     const total = grupos.reduce((s, g) => s + g.length, 0);
@@ -288,7 +297,8 @@ export class Motor {
           d[o] = 0; d[o + 1] = 0; d[o + 2] = 0; d[o + 3] = 1;
         }
         const especial = this.estados.get(peca.fj);
-        d[o + 7] = especial ?? (this.esmaecerOutras ? ESTADO.esmaecida : ESTADO.normal);
+        d[o + 7] = !doCorpo(peca, this.sexo) ? ESTADO.oculta
+          : especial ?? (this.esmaecerOutras ? ESTADO.esmaecida : ESTADO.normal);
       });
       parte.textura.needsUpdate = true;
     }
@@ -315,6 +325,7 @@ export class Motor {
     for (const parte of this.partes) {
       if (!this.visiveis.has(parte.sistema)) continue;
       parte.pecas.forEach((peca, i) => {
+        if (!doCorpo(peca, this.sexo)) return;
         const s = parte.dados[i * 8 + 3];
         this.posicaoAtual(peca, tmp);
         const meia = new THREE.Vector3(...peca.tamanho).multiplyScalar(0.5 * s);

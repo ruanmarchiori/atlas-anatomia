@@ -2,6 +2,9 @@
 
 export type Versao = 'completo' | 'reduzido';
 
+/** Corpo escolhido pelo estudante: muda as peças do sistema reprodutor (e a pele). */
+export type Sexo = 'm' | 'f';
+
 export interface Peca {
   fj: string;
   fma: string;
@@ -9,6 +12,8 @@ export interface Peca {
   pt: string;
   regiao: string;
   revisar: boolean;
+  sexo: '' | Sexo; // '' = aparece nos dois corpos
+  fonte: 'BP3D' | 'HRA'; // BodyParts3D ou Human Reference Atlas (órgãos femininos)
   centro: [number, number, number];
   tamanho: [number, number, number];
   completo: [number, number]; // [arquivo do sistema, índice da peça no GLB]
@@ -47,6 +52,7 @@ export const COR_SISTEMA: Record<string, string> = {
   digestorio: '#c98a52',
   urinario: '#b08a3c',
   linfatico: '#6aa36f',
+  reprodutor: '#c77dab',
   outros: '#b9a7a0',
 };
 
@@ -55,6 +61,9 @@ export async function carregarCatalogo(): Promise<Catalogo> {
   if (!r.ok) throw new Error(`Não foi possível carregar o catálogo (${r.status})`);
   return r.json();
 }
+
+/** A peça existe no corpo escolhido? */
+export const doCorpo = (p: Peca, sexo: Sexo) => !p.sexo || p.sexo === sexo;
 
 /** Nome sem acento e em minúsculas, pra busca e quiz. */
 export const normalizar = (s: string) =>

@@ -9,6 +9,8 @@ import path from 'node:path';
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const RAW = path.join(RAIZ, 'data/raw');
 const OBJ = path.join(RAW, 'isa_BP3D_4.0_obj_99');
+// Órgãos femininos do Human Reference Atlas, já convertidos (etapa 2).
+const OBJ_HRA = path.join(RAW, 'hra-obj');
 const SAIDA = path.join(RAIZ, 'data/gerado');
 fs.mkdirSync(SAIDA, { recursive: true });
 
@@ -113,6 +115,7 @@ function sistemaDe(isa, partof, nome) {
 const MEMBRO_SUP = /upper limb|\barm\b|forearm|\bhand\b|finger|thumb|wrist|carpal|metacarp|humer|\bradius\b|\bulna|axill|brachial|brachialis|biceps brachii|triceps|cubital|palm|thenar|pollicis|deltoid|of index finger|digiti minimi of hand/;
 const MEMBRO_INF = /lower limb|thigh|\bleg\b|\bfoot\b|\btoe\b|hallu|ankle|tarsal|metatars|femor|femur|tibi|fibul|patell|popliteal|plantar|gluteal|gluteus|calcane|talus|crural|sartorius|gracilis|quadriceps|vastus|soleus|gastrocnemius|hamstring|semitendinosus|semimembranosus|biceps femoris/;
 const GENITAL = /testis|epididym|penis|scrot|deferent duct|seminal vesicle|prostate|pubic hair/;
+const REPRODUTOR_MASC = /testis|epididym|corpus cavernosum of penis|corpus spongiosum of penis|glans penis|deferent duct|seminal vesicle|prostate/;
 function regiaoDe(partof, centro, alturaTotal, zMin, nome) {
   if (GENITAL.test(nome)) return 'pelve';
   if (MEMBRO_SUP.test(nome) || tem(partof, /upper limb/, /\bhand\b/, /forearm/)) return 'membro-superior';
@@ -130,11 +133,15 @@ function regiaoDe(partof, centro, alturaTotal, zMin, nome) {
   return 'membro-inferior';
 }
 
-/* ---------- Leitura dos cabeçalhos dos OBJ ---------- */
-const arquivos = fs.readdirSync(OBJ).filter((f) => f.endsWith('.obj')).sort();
+/* ---------- Leitura dos cabeçalhos dos OBJ (BodyParts3D + HRA) ---------- */
+const arquivos = [
+  ...fs.readdirSync(OBJ).filter((f) => f.endsWith('.obj')).sort().map((f) => path.join(OBJ, f)),
+  ...(fs.existsSync(OBJ_HRA) ? fs.readdirSync(OBJ_HRA).filter((f) => f.endsWith('.obj')).sort().map((f) => path.join(OBJ_HRA, f)) : []),
+];
 const pecas = [];
-for (const arq of arquivos) {
-  const cab = fs.readFileSync(path.join(OBJ, arq), 'utf8').slice(0, 1500);
+for (const caminho of arquivos) {
+  const arq = path.basename(caminho);
+  const cab = fs.readFileSync(caminho, 'utf8').slice(0, 1500);
   // [ \t]* e não \s*: com \s*, um campo vazio "vazava" para a linha seguinte.
   const campo = (k) => (cab.match(new RegExp(`# ${k}[ \\t]*:[ \\t]*([^\\r\\n]*)`)) || [])[1]?.trim() || '';
   const lim = cab.match(/Bounds\(mm\): \(([^)]*)\)-\(([^)]*)\)/);
@@ -144,6 +151,9 @@ for (const arq of arquivos) {
     en: campo('English name'),
     min: lim[1].split(',').map(Number),
     max: lim[2].split(',').map(Number),
+    obj: path.relative(RAW, caminho).replace(/\\/g, '/'),
+    fonte: campo('Source') || 'BodyParts3D',
+    sexo: (campo('Sex') || '').toLowerCase(),
   });
 }
 const zMin = Math.min(...pecas.map((p) => p.min[2]));
@@ -153,6 +163,14 @@ const altura = zMax - zMin;
 const semNome = [];
 for (const p of pecas) {
   p.centro = p.min.map((v, i) => +((v + p.max[i]) / 2).toFixed(1));
+  const nomeMin = p.en.toLowerCase();
+  p.lado = /\bright\b/.test(nomeMin) ? 'direito' : /\bleft\b/.test(nomeMin) ? 'esquerdo' : '';
+  // Órgãos femininos do HRA: sistema reprodutor, sem hierarquia FMA.
+  if (p.fonte === 'HRA') {
+    p.sistema = 'reprodutor';
+    p.regiao = /breast|mammary/.test(nomeMin) ? 'torax' : 'pelve';
+    continue;
+  }
   let conceito = p.fma;
   if (!p.fma) {
     // Peça sem nome na fonte: herda da menor estrutura que a contém, marcada pra revisar.
@@ -179,11 +197,15 @@ for (const p of pecas) {
     }
   }
   p.regiao = regiaoDe(partof, p.centro, altura, zMin, nome);
-  p.lado = /\bright\b/.test(nome) ? 'direito' : /\bleft\b/.test(nome) ? 'esquerdo' : '';
+  // Aparelho reprodutor masculino (o BodyParts3D é um corpo masculino): sai de "outros".
+  if (REPRODUTOR_MASC.test(nome)) { p.sistema = 'reprodutor'; p.sexo = 'm'; }
+  // Peças só do corpo masculino em outros sistemas: somem quando o estudante escolhe o
+  // corpo feminino (vasos do pênis e dos testículos; a pele, que tem a forma masculina).
+  else if (/penis|testicular|^skin$/.test(nome)) p.sexo = 'm';
 }
 
 fs.writeFileSync(path.join(SAIDA, 'catalogo-base.json'), JSON.stringify({
-  fonte: 'BodyParts3D 4.0 (isa_BP3D_4.0_obj_99), DBCLS',
+  fonte: 'BodyParts3D 4.0 (isa_BP3D_4.0_obj_99), DBCLS + Human Reference Atlas (HuBMAP) — órgãos femininos',
   unidades: 'mm, Z para cima',
   limites: { zMin, zMax },
   pecas,

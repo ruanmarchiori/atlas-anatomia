@@ -1,7 +1,7 @@
 // Ações do app: ligam a interface ao estado e ao motor 3D.
 import type { Motor } from './3d/motor';
-import type { Peca } from './catalogo';
-import { normalizar, poucaMemoria } from './catalogo';
+import type { Peca, Sexo } from './catalogo';
+import { doCorpo, normalizar, poucaMemoria } from './catalogo';
 import { avisar, lerEstado, mudar, sistemaDaPeca } from './estado';
 import { salvarDados } from './estudo/armazenamento';
 
@@ -9,10 +9,29 @@ let motor: Motor | null = null;
 const esperandoMotor: (() => void)[] = [];
 export function registrarMotor(m: Motor | null) {
   motor = m;
+  m?.setSexo(lerEstado().sexo);
   if (m) esperandoMotor.splice(0).forEach((f) => f());
 }
 const comMotor = () => new Promise<Motor>((ok) => (motor ? ok(motor) : esperandoMotor.push(() => ok(motor!))));
 export const motorAtual = () => motor;
+
+/* ---------- Corpo masculino / feminino ---------- */
+export function escolherSexo(sexo: Sexo) {
+  const { selecionada, hover, quiz } = lerEstado();
+  try { localStorage.setItem('atlas-sexo', sexo); } catch { /* sem armazenamento: vale só nesta sessão */ }
+  // A peça selecionada pode não existir no outro corpo.
+  const manter = selecionada && doCorpo(selecionada, sexo) ? selecionada : null;
+  mudar((e) => ({
+    sexo,
+    selecionada: manter,
+    hover: hover && doCorpo(hover, sexo) ? hover : null,
+    detalhesAberto: manter ? e.detalhesAberto : false,
+    gaveta: !manter && e.gaveta === 'detalhes' ? null : e.gaveta,
+  }));
+  motor?.setSexo(sexo);
+  sincronizarEstados();
+  if (quiz.ativo && quiz.alvo && !doCorpo(quiz.alvo, sexo)) void proximaPergunta();
+}
 
 /* ---------- Sistemas ---------- */
 const carregando = new Map<string, Promise<void>>();
@@ -113,6 +132,11 @@ export function tocarPeca(peca: Peca | null, toque: boolean) {
 
 /** Leva a câmera até a peça (busca, quiz). Liga e carrega o sistema se preciso. */
 export async function focarPeca(peca: Peca, abrir = true) {
+  // Peça que só existe no outro corpo (ex.: buscar "útero" com o corpo masculino): troca o corpo.
+  if (peca.sexo && peca.sexo !== lerEstado().sexo) {
+    escolherSexo(peca.sexo);
+    avisar(peca.sexo === 'f' ? 'Mostrando o corpo feminino.' : 'Mostrando o corpo masculino.');
+  }
   const sis = sistemaDaPeca(peca);
   await ligarSistema(sis);
   selecionar(peca, abrir);
@@ -181,15 +205,16 @@ export async function iniciarQuiz(sistema: string | null, modo: 'opcoes' | 'digi
 }
 
 export async function proximaPergunta() {
-  const { catalogo, sistemas, quiz } = lerEstado();
+  const { catalogo, sistemas, quiz, sexo } = lerEstado();
   if (!catalogo) return;
   const ids = quiz.sistema ? [quiz.sistema] : catalogo.sistemas.filter((s) => sistemas[s.id]?.visivel && sistemas[s.id]?.status === 'pronto').map((s) => s.id);
   if (!ids.length) { avisar('Ligue ao menos um sistema para o quiz.'); pararQuiz(); return; }
   // Nomes repetidos (ex.: dois "Corpo mamilar") confundem as opções: usa nomes únicos.
-  const candidatas = catalogo.sistemas.filter((s) => ids.includes(s.id)).flatMap((s) => s.pecas);
+  const candidatas = catalogo.sistemas.filter((s) => ids.includes(s.id)).flatMap((s) => s.pecas).filter((p) => doCorpo(p, sexo));
+  if (!candidatas.length) { avisar('Este sistema não tem peças no corpo escolhido.'); pararQuiz(); return; }
   const alvo = sortear(candidatas);
   const outras = new Map<string, Peca>();
-  const mesmoSistema = catalogo.sistemas.find((s) => s.pecas.some((p) => p.fj === alvo.fj))!.pecas;
+  const mesmoSistema = catalogo.sistemas.find((s) => s.pecas.some((p) => p.fj === alvo.fj))!.pecas.filter((p) => doCorpo(p, sexo));
   let tentativas = 0;
   while (outras.size < 3 && tentativas++ < 200) {
     const p = sortear(mesmoSistema);

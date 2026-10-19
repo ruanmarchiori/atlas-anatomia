@@ -39,8 +39,9 @@ const centroG = minG.map((v, i) => (v + maxG[i]) / 2);
 const converter = (x, y, z) => [(x - centroG[0]) / 1000, (z - centroG[2]) / 1000, -(y - centroG[1]) / 1000];
 
 /* ---------- Leitura de um OBJ (v / vn / f v//vn, só triângulos) ---------- */
-function lerObj(fj) {
-  const texto = fs.readFileSync(path.join(OBJ, `${fj}.obj`), 'utf8');
+// p.obj: caminho relativo a data/raw (BodyParts3D ou órgãos do HRA convertidos na etapa 2).
+function lerObj(p) {
+  const texto = fs.readFileSync(path.join(RAIZ, 'data/raw', p.obj), 'utf8');
   const v = [];
   const vn = [];
   const faces = [];
@@ -79,10 +80,16 @@ function lerObj(fj) {
 }
 
 /* ---------- Simplificação (versão reduzida) ---------- */
-function simplificar(malha) {
+// liberarBordas: malhas do HRA (mamas) têm muitas bordas abertas; travando as bordas a
+// simplificação quase não reduz. Para elas, as bordas também podem ser simplificadas.
+function simplificar(malha, liberarBordas = false) {
   const alvo = Math.max(REDUCAO.minimoTriangulos * 3, Math.floor((malha.ind.length * REDUCAO.proporcao) / 3) * 3);
   if (alvo >= malha.ind.length) return malha;
-  const [ind] = MeshoptSimplifier.simplify(malha.ind, malha.pos, 3, alvo, REDUCAO.erro, ['LockBorder']);
+  const [ind] = liberarBordas
+    // Prune: apaga componentes soltos minúsculos (lobos, ductos e ligamentos da mama são
+    // centenas de pedacinhos; sem isso não há o que simplificar).
+    ? MeshoptSimplifier.simplify(malha.ind, malha.pos, 3, alvo, 0.02, ['Prune'])
+    : MeshoptSimplifier.simplify(malha.ind, malha.pos, 3, alvo, REDUCAO.erro, ['LockBorder']);
   // Compacta: só os vértices ainda usados.
   const novo = new Map();
   const pos = [];
@@ -159,10 +166,10 @@ const fmt = (b) => `${(b / 1024 / 1024).toFixed(2)} MB`;
 for (const sistema of sistemas) {
   const doSistema = pecas.filter((p) => p.sistema === sistema);
   console.log(`\n▸ ${sistema}: ${doSistema.length} peças — lendo OBJ...`);
-  const completas = doSistema.map((p) => ({ fj: p.fj, p, malha: lerObj(p.fj) }));
+  const completas = doSistema.map((p) => ({ fj: p.fj, p, malha: lerObj(p) }));
 
   for (const versao of ['completo', 'reduzido']) {
-    const malhas = versao === 'completo' ? completas : completas.map((m) => ({ ...m, malha: simplificar(m.malha) }));
+    const malhas = versao === 'completo' ? completas : completas.map((m) => ({ ...m, malha: simplificar(m.malha, m.p.fonte === 'HRA') }));
     // Tenta um arquivo só; se passar de 50 MB, divide por região.
     let grupos = [[sistema, malhas]];
     let resultado = [];

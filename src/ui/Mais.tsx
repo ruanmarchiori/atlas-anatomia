@@ -67,6 +67,13 @@ export default function Mais() {
           <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/" target="_blank" rel="noopener">Fonte</a>.
           Modificados: convertidos para GLB, agrupados por sistema e simplificados.
         </p>
+        <p>
+          Órgãos reprodutores femininos (útero, tubas uterinas, ovários e mamas):{' '}
+          <strong>Human Reference Atlas</strong> 3D Reference Object Library v1.3 (HuBMAP, NIH), licenciado sob{' '}
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br" target="_blank" rel="noopener">CC BY 4.0</a>.{' '}
+          <a href="https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html" target="_blank" rel="noopener">Fonte</a>.
+          Modificados: escalados e posicionados na pelve e no tórax do modelo BodyParts3D, divididos em peças e simplificados.
+        </p>
       </footer>
     </div>
   );

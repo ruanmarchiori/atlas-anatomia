@@ -1,7 +1,7 @@
 // Estado central do app: uma "loja" mínima (sem bibliotecas), lida pelo React via
 // useSyncExternalStore e também pelo motor 3D.
 import { useSyncExternalStore } from 'react';
-import type { Catalogo, Peca, Versao } from './catalogo';
+import type { Catalogo, Peca, Sexo, Versao } from './catalogo';
 import type { DadosEstudo } from './estudo/armazenamento';
 import { vazio } from './estudo/armazenamento';
 
@@ -22,6 +22,7 @@ export interface Estado {
   catalogo: Catalogo | null;
   erroCatalogo: string | null;
   versao: Versao;
+  sexo: Sexo; // corpo masculino ou feminino
   sistemas: Record<string, { visivel: boolean; status: StatusSistema; progresso: number; erro?: string }>;
   explosao: number; // alvo do slider, 0..1
   hover: Peca | null;
@@ -41,6 +42,7 @@ const estadoInicial: Estado = {
   catalogo: null,
   erroCatalogo: null,
   versao: 'reduzido',
+  sexo: lerSexoSalvo(),
   sistemas: {},
   explosao: 0,
   hover: null,
@@ -55,6 +57,10 @@ const estadoInicial: Estado = {
   pedidoFoco: null,
   pedidoCentralizar: 0,
 };
+
+function lerSexoSalvo(): Sexo {
+  try { return localStorage.getItem('atlas-sexo') === 'f' ? 'f' : 'm'; } catch { return 'm'; }
+}
 
 let estado = estadoInicial;
 const ouvintes = new Set<() => void>();

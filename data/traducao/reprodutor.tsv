@@ -1,0 +1,29 @@
+# Tradução — sistema reprodutor FEMININO (órgãos do Human Reference Atlas).
+# Os órgãos masculinos (BodyParts3D) estão em visceras.tsv.
+# Colunas: nome-base em inglês | nome em português | revisar (sim/vazio) | nota
+# Útero
+body of uterus	Corpo do útero
+fundus of uterus	Fundo do útero
+cornua of uterus	Cornos do útero	sim	termo clínico; na TA, região dos óstios uterinos das tubas
+lower uterine segment	Segmento inferior do útero	sim	termo obstétrico; corresponde ao istmo do útero
+posterior wall of uterus	Parede posterior do útero
+anterior wall of uterus	Parede anterior do útero
+cervix of uterus	Colo do útero
+internal os of cervix	Óstio interno do colo do útero
+external os of cervix	Óstio do útero (óstio externo do colo)
+abdominal ostium of uterine tube	Óstio abdominal da tuba uterina	sim	na fonte faz parte do modelo do útero, sem lado
+# Tubas uterinas e ovários
+ampulla of uterine tube	Ampola da tuba uterina {f}
+isthmus of uterine tube	Istmo da tuba uterina {f}
+fimbriae of uterine tube	Fímbrias da tuba uterina {f}
+infundibulum of uterine tube	Infundíbulo da tuba uterina {f}
+ovary	Ovário {m}
+# Mamas
+adipose tissue of breast	Tecido adiposo da mama {f}
+areolar tubercles of breast	Tubérculos areolares da mama {f}
+nipple of breast	Papila mamária {f} (mamilo)
+areola of breast	Aréola da mama {f}
+lobes of mammary gland	Lobos da glândula mamária {f}
+lactiferous ducts of breast	Ductos lactíferos da mama {f}
+lactiferous sinuses of breast	Seios lactíferos da mama {f}
+suspensory ligaments of breast	Ligamentos suspensores da mama {f}

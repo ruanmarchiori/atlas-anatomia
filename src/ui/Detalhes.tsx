@@ -36,7 +36,10 @@ export default function Detalhes() {
       <dl className="ficha">
         <div><dt>Sistema</dt><dd>{sistema?.nome}</dd></div>
         <div><dt>Região</dt><dd>{catalogo.regioes[peca.regiao] || peca.regiao}</dd></div>
-        <div><dt>Código FMA</dt><dd>{peca.fma ? peca.fma.replace('FMA', 'FMA ') : '—'}</dd></div>
+        {peca.fonte === 'HRA'
+          ? <div><dt>Modelo</dt><dd>Human Reference Atlas (HuBMAP)</dd></div>
+          : <div><dt>Código FMA</dt><dd>{peca.fma ? peca.fma.replace('FMA', 'FMA ') : '—'}</dd></div>}
+        {peca.sexo && <div><dt>Corpo</dt><dd>{peca.sexo === 'f' ? 'Feminino' : 'Masculino'}</dd></div>}
         {quiz && <div><dt>No quiz</dt><dd>{quiz.a} acerto(s) · {quiz.e} erro(s)</dd></div>}
       </dl>
       <div className="detalhes-acoes">

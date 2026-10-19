@@ -1,4 +1,4 @@
-Nomes em português marcados como "revisar": 156
+Nomes em português marcados como "revisar": 159
 
 FJ1284	Muscular	Check ligament of left lateral rectus	→ Ligamento de contenção do músculo reto lateral esquerdo	(expansão da fáscia do músculo (bainha))
 FJ1292	Muscular	Check ligament of left medial rectus	→ Ligamento de contenção do músculo reto medial esquerdo	(expansão da fáscia do músculo (bainha))
@@ -156,6 +156,9 @@ FJ3414	Circulatório — artérias e coração	Ascending branch of inferior bran
 FJ3481	Circulatório — artérias e coração	Ureteric segment of left renal artery	→ Ramo uretérico da artéria renal esquerda
 FJ3581	Circulatório — artérias e coração	Ureteric segment of right renal artery	→ Ramo uretérico da artéria renal direita
 FJ3582	Circulatório — artérias e coração	Ureteric segment of right renal artery	→ Ramo uretérico da artéria renal direita
+HRA_F_abdominal_ostium_of_uterine_tube	Reprodutor	Abdominal ostium of uterine tube	→ Óstio abdominal da tuba uterina	(na fonte faz parte do modelo do útero, sem lado)
+HRA_F_cornua	Reprodutor	Cornua of uterus	→ Cornos do útero	(termo clínico; na TA, região dos óstios uterinos das tubas)
+HRA_F_lower_uterine_segment	Reprodutor	Lower uterine segment	→ Segmento inferior do útero	(termo obstétrico; corresponde ao istmo do útero)
 
 Sem tradução (aparecem em inglês no app): 0
 
