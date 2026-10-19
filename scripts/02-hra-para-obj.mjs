@@ -4,9 +4,11 @@
 // Visible Human feminino), em outro sistema de coordenadas. Este script:
 //   1. lê os GLB do HRA (data/raw/hra/), peça por peça;
 //   2. encaixa cada peça no nosso corpo:
-//      - útero, ovários e tubas: alinhando a pelve óssea feminina do HRA com o quadril e o
-//        sacro do BodyParts3D (escala uniforme), e subindo o útero para fora da bexiga
-//        (a bexiga do modelo masculino é grande e ocuparia o mesmo lugar);
+//      - útero, ovários e tubas: escala pela pelve óssea feminina do HRA comparada ao quadril
+//        e ao sacro do BodyParts3D; depois o conjunto é posto EM PÉ (eixo colo → fundo na
+//        vertical, face anterior para a frente — a vista clássica de atlas; o HRA traz o
+//        útero antevertido, quase deitado) e o colo vai para o meio da pelve, logo acima
+//        da bexiga e na frente do reto (a bexiga do modelo masculino é grande);
 //      - mamas: apoiadas sobre o músculo peitoral maior;
 //   3. grava cada peça como OBJ no MESMO formato dos arquivos do BodyParts3D (mm, Z para
 //      cima, frente = −Y, cabeçalho com nome e limites) em data/raw/hra-obj/.
@@ -181,10 +183,13 @@ fs.mkdirSync(SAIDA, { recursive: true });
 // Mamas: centro de cada uma sobre o peitoral maior (parte esternocostal) do mesmo lado.
 const peitoral = { left: caixaBP('Sternocostal part of left pectoralis major'), right: caixaBP('Sternocostal part of right pectoralis major') };
 const bexiga = caixaBP('Urinary bladder');
+// Útero em pé: o óstio externo do colo fica no centro da pelve, logo acima da bexiga e
+// ~18 mm na frente do reto (medido na fatia de 820–865 mm de altura).
+const ALVO_COLO = [pelve.bp[0], -90, bexiga.max[2] - 2];
+const grupoUtero = []; // peças do útero/tubas/ovários: giradas e movidas juntas no fim
 
 const arquivos = ['VH_F_Uterus.glb', 'VH_F_Ovary_L.glb', 'VH_F_Ovary_R.glb', 'VH_F_Fallopian_Tube_L.glb', 'VH_F_Fallopian_Tube_R.glb',
   '3d-vh-f-mammary-gland-l.glb', '3d-vh-f-mammary-gland-r.glb'];
-let ajusteUtero = null;
 const relatorio = [];
 
 for (const arq of arquivos) {
@@ -204,14 +209,6 @@ for (const arq of arquivos) {
       bp: [((p.min[0] + p.max[0]) / 2) * 0.88, p.min[2] + (p.max[2] - p.min[2]) * 0.38, p.min[1] + 15],
     };
   }
-  // O útero do HRA, encaixado pela pelve, cairia dentro da bexiga do modelo masculino
-  // (bem mais cheia): sobe útero/tubas/ovários até o colo ficar logo acima do topo da bexiga.
-  if (!mama && !ajusteUtero) {
-    const u = getBounds((await io.read(path.join(HRA, 'VH_F_Uterus.glb'))).getRoot().listScenes()[0]);
-    const fundoUtero = paraBp(u.min, pelve.hra, pelve.bp)[2];
-    ajusteUtero = [0, 0, Math.max(0, bexiga.max[2] - 12 - fundoUtero)];
-  }
-  const desloc = mama ? [0, 0, 0] : ajusteUtero;
 
   for (const no of doc.getRoot().listNodes().filter((n) => n.getMesh())) {
     const nome = nomeDe(no.getName());
@@ -228,20 +225,55 @@ for (const arq of arquivos) {
       if (k === undefined) {
         k = pos.length / 3;
         usados.set(i, k);
-        pos.push(...paraBp([m.pos[i * 3], m.pos[i * 3 + 1], m.pos[i * 3 + 2]], ancora.hra, ancora.bp, desloc));
+        pos.push(...paraBp([m.pos[i * 3], m.pos[i * 3 + 1], m.pos[i * 3 + 2]], ancora.hra, ancora.bp));
         if (norOrig) nor.push(...normalParaBp([norOrig[i * 3], norOrig[i * 3 + 1], norOrig[i * 3 + 2]]));
       }
       ind.push(k);
     }
     const normais = nor.length ? nor : Array.from(normaisSuaves(pos, ind));
+    const peca = { no: no.getName(), arq, nome, pos, normais, ind };
+    if (mama) gravar(peca); else grupoUtero.push(peca);
+  }
+}
+
+/* ---------- Útero em pé ---------- */
+const centroide = (no) => {
+  const pc = grupoUtero.find((x) => x.no === no);
+  if (!pc) throw new Error(`Peça não encontrada: ${no}`);
+  const c = [0, 0, 0];
+  for (let i = 0; i < pc.pos.length; i += 3) for (let j = 0; j < 3; j++) c[j] += pc.pos[i + j];
+  return c.map((v) => v / (pc.pos.length / 3));
+};
+const colo = centroide('VH_F_external_cervical_os');
+const fundo = centroide('VH_F_fundus_of_uterus');
+// Ângulo do eixo colo → fundo no plano sagital (Y = profundidade, Z = altura), medido a
+// partir da vertical; girar por −φ em torno do eixo X deixa o eixo vertical.
+const phi = Math.atan2(fundo[1] - colo[1], fundo[2] - colo[2]);
+const [cs, sn] = [Math.cos(phi), Math.sin(phi)];
+for (const pc of grupoUtero) {
+  for (let i = 0; i < pc.pos.length; i += 3) {
+    const y = pc.pos[i + 1] - colo[1];
+    const z = pc.pos[i + 2] - colo[2];
+    pc.pos[i] += ALVO_COLO[0] - colo[0];
+    pc.pos[i + 1] = y * cs - z * sn + ALVO_COLO[1];
+    pc.pos[i + 2] = y * sn + z * cs + ALVO_COLO[2];
+    const [ny, nz] = [pc.normais[i + 1], pc.normais[i + 2]];
+    pc.normais[i + 1] = ny * cs - nz * sn;
+    pc.normais[i + 2] = ny * sn + nz * cs;
+  }
+  gravar(pc);
+}
+
+function gravar({ no: nomeNo, arq, nome, pos, normais, ind }) {
+  {
     const min = [Infinity, Infinity, Infinity];
     const max = [-Infinity, -Infinity, -Infinity];
     for (let i = 0; i < pos.length; i += 3) for (let j = 0; j < 3; j++) { min[j] = Math.min(min[j], pos[i + j]); max[j] = Math.max(max[j], pos[i + j]); }
-    const id = `HRA_${no.getName().replace(/^VH_F_/, 'F_')}`;
+    const id = `HRA_${nomeNo.replace(/^VH_F_/, 'F_')}`;
     const linhas = [
       '#',
       '# Human Reference Atlas (HuBMAP) 3D reference organ — CC BY 4.0 — https://humanatlas.io/3d-reference-library',
-      `# Original node : ${no.getName()} (${arq})`,
+      `# Original node : ${nomeNo} (${arq})`,
       '# Converted to the BodyParts3D frame (mm, Z up, front = -Y) by scripts/02-hra-para-obj.mjs',
       '#',
       `# File ID : ${id}`,
@@ -259,6 +291,6 @@ for (const arq of arquivos) {
     relatorio.push(`${id.padEnd(46)} ${nome.padEnd(42)} ${(ind.length / 3).toLocaleString('pt-BR').padStart(8)} triângulos`);
   }
 }
-console.log(`Escala HRA → BodyParts3D: ${ESCALA.toFixed(3)} | útero/anexos subidos ${ajusteUtero[2].toFixed(0)} mm para sair da bexiga`);
+console.log(`Escala HRA → BodyParts3D: ${ESCALA.toFixed(3)} | útero posto em pé (girado ${(-phi * 180 / Math.PI).toFixed(0)}°), colo em ${ALVO_COLO.map((v) => v.toFixed(0)).join(', ')} mm`);
 console.log(relatorio.join('\n'));
 console.log(`${relatorio.length} peças gravadas em data/raw/hra-obj/`);

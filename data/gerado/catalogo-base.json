@@ -58131,22 +58131,22 @@
    "fma": "",
    "en": "Abdominal ostium of uterine tube",
    "min": [
-    -29.4787,
-    -101.181,
-    849.3722
+    -27.8658,
+    -90.7522,
+    870.6975
    ],
    "max": [
-    20.065,
-    -99.0769,
-    852.8204
+    21.678,
+    -87.8966,
+    873.4315
    ],
    "obj": "hra-obj/HRA_F_abdominal_ostium_of_uterine_tube.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -4.7,
-    -100.1,
-    851.1
+    -3.1,
+    -89.3,
+    872.1
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58157,22 +58157,22 @@
    "fma": "",
    "en": "Ampulla of left uterine tube",
    "min": [
-    28.5808,
-    -107.2151,
-    852.5591
+    30.1938,
+    -88.9613,
+    873.5275
    ],
    "max": [
-    55.8825,
-    -92.9222,
-    892.6905
+    57.4955,
+    -50.0988,
+    889.5295
    ],
    "obj": "hra-obj/HRA_F_ampulla_of_uterine_tube_L.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    42.2,
-    -100.1,
-    872.6
+    43.8,
+    -69.5,
+    881.5
    ],
    "lado": "esquerdo",
    "sistema": "reprodutor",
@@ -58183,22 +58183,22 @@
    "fma": "",
    "en": "Ampulla of right uterine tube",
    "min": [
-    -61.5611,
-    -103.7947,
-    852.4718
+    -59.9482,
+    -88.8992,
+    873.4126
    ],
    "max": [
-    -36.5406,
-    -89.7665,
-    891.8762
+    -34.9277,
+    -48.9594,
+    887.5414
    ],
    "obj": "hra-obj/HRA_F_ampulla_of_uterine_tube_R.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -49.1,
-    -96.8,
-    872.2
+    -47.4,
+    -68.9,
+    880.5
    ],
    "lado": "direito",
    "sistema": "reprodutor",
@@ -58209,22 +58209,22 @@
    "fma": "",
    "en": "Anterior wall of uterus",
    "min": [
-    -24.0704,
-    -110.7619,
-    838.9396
+    -22.4574,
+    -90.6665,
+    849.467
    ],
    "max": [
-    16.3853,
-    -76.805,
-    862.1152
+    17.9983,
+    -76.9406,
+    883.7036
    ],
    "obj": "hra-obj/HRA_F_anterior_wall_of_uterus.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -3.8,
-    -93.8,
-    850.5
+    -2.2,
+    -83.8,
+    866.6
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58339,22 +58339,22 @@
    "fma": "",
    "en": "Body of uterus",
    "min": [
-    -24.2287,
-    -102.9088,
-    832.3773
+    -22.6158,
+    -97.8563,
+    849.4846
    ],
    "max": [
-    16.4717,
-    -76.8091,
-    860.7565
+    18.0846,
+    -76.7659,
+    873.6833
    ],
    "obj": "hra-obj/HRA_F_body_of_uterus.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -3.9,
-    -89.9,
-    846.6
+    -2.3,
+    -87.3,
+    861.6
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58365,22 +58365,22 @@
    "fma": "",
    "en": "Cervix of uterus",
    "min": [
-    -15.186,
-    -80.3843,
-    817.989
+    -13.573,
+    -102.5316,
+    824.5595
    ],
    "max": [
-    10.5788,
-    -57.4633,
-    845.3004
+    12.1917,
+    -78.3256,
+    844.3696
    ],
    "obj": "hra-obj/HRA_F_cervix.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -2.3,
-    -68.9,
-    831.6
+    -0.7,
+    -90.4,
+    834.5
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58391,22 +58391,22 @@
    "fma": "",
    "en": "Cornua of uterus",
    "min": [
-    -29.477,
-    -104.5924,
-    847.091
+    -27.864,
+    -92.2143,
+    866.9866
    ],
    "max": [
-    20.0488,
-    -95.4773,
-    855.884
+    21.6618,
+    -84.9256,
+    876.8356
    ],
    "obj": "hra-obj/HRA_F_cornua.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -4.7,
-    -100,
-    851.5
+    -3.1,
+    -88.6,
+    871.9
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58417,22 +58417,22 @@
    "fma": "",
    "en": "External os of cervix",
    "min": [
-    -5.3875,
-    -64.8856,
-    824.4361
+    -3.7745,
+    -93.2395,
+    825.8054
    ],
    "max": [
-    1.5647,
-    -59.4058,
-    831.0986
+    3.1776,
+    -86.9876,
+    830.4009
    ],
    "obj": "hra-obj/HRA_F_external_cervical_os.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -1.9,
-    -62.1,
-    827.8
+    -0.3,
+    -90.1,
+    828.1
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58495,22 +58495,22 @@
    "fma": "",
    "en": "Fimbriae of left uterine tube",
    "min": [
-    41.5135,
-    -97.4903,
-    879.1446
+    43.1265,
+    -62.3533,
+    877.771
    ],
    "max": [
-    48.485,
-    -89.7058,
-    884.0533
+    50.098,
+    -57.0675,
+    885.8311
    ],
    "obj": "hra-obj/HRA_F_fibria_of_uterine_tube_L.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    45,
-    -93.6,
-    881.6
+    46.6,
+    -59.7,
+    881.8
    ],
    "lado": "esquerdo",
    "sistema": "reprodutor",
@@ -58521,22 +58521,22 @@
    "fma": "",
    "en": "Fimbriae of right uterine tube",
    "min": [
-    -59.6915,
-    -90.0063,
-    879.0886
+    -58.0785,
+    -58.7756,
+    873.3225
    ],
    "max": [
-    -53.0671,
-    -84.5451,
-    883.2354
+    -51.4541,
+    -55.181,
+    879.2245
    ],
    "obj": "hra-obj/HRA_F_fibria_of_uterine_tube_R.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -56.4,
-    -87.3,
-    881.2
+    -54.8,
+    -57,
+    876.3
    ],
    "lado": "direito",
    "sistema": "reprodutor",
@@ -58547,22 +58547,22 @@
    "fma": "",
    "en": "Fundus of uterus",
    "min": [
-    -23.4615,
-    -112.8669,
-    842.4173
+    -21.8485,
+    -98.9277,
+    868.86
    ],
    "max": [
-    15.6237,
-    -92.0455,
-    862.3465
+    17.2367,
+    -76.8221,
+    884.1003
    ],
    "obj": "hra-obj/HRA_F_fundus_of_uterus.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -3.9,
-    -102.5,
-    852.4
+    -2.3,
+    -87.9,
+    876.5
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58573,22 +58573,22 @@
    "fma": "",
    "en": "Internal os of cervix",
    "min": [
-    -3.7854,
-    -77.1157,
-    833.9731
+    -2.1724,
+    -91.3729,
+    840.458
    ],
    "max": [
-    -0.5266,
-    -73.108,
-    837.5399
+    1.0864,
+    -88.6951,
+    844.2206
    ],
    "obj": "hra-obj/HRA_F_internal_cervical_os.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -2.2,
-    -75.1,
-    835.8
+    -0.5,
+    -90,
+    842.3
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58599,22 +58599,22 @@
    "fma": "",
    "en": "Isthmus of left uterine tube",
    "min": [
-    19.4257,
-    -103.0899,
-    850.7131
+    21.0387,
+    -90.2865,
+    871.6164
    ],
    "max": [
-    28.9723,
-    -99.3832,
-    854.7485
+    30.5853,
+    -86.7475,
+    875.6806
    ],
    "obj": "hra-obj/HRA_F_isthmus_of_fallopian_tube_L.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    24.2,
-    -101.2,
-    852.7
+    25.8,
+    -88.5,
+    873.6
    ],
    "lado": "esquerdo",
    "sistema": "reprodutor",
@@ -58625,22 +58625,22 @@
    "fma": "",
    "en": "Isthmus of right uterine tube",
    "min": [
-    -37.1261,
-    -102.4131,
-    849.7743
+    -35.5131,
+    -90.5743,
+    870.5374
    ],
    "max": [
-    -29.0791,
-    -98.8778,
-    854.055
+    -27.4662,
+    -87.2794,
+    875.0504
    ],
    "obj": "hra-obj/HRA_F_isthmus_of_fallopian_tube_R.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -33.1,
-    -100.6,
-    851.9
+    -31.5,
+    -88.9,
+    872.8
    ],
    "lado": "direito",
    "sistema": "reprodutor",
@@ -58651,22 +58651,22 @@
    "fma": "",
    "en": "Left ovary",
    "min": [
-    44.1101,
-    -100.8734,
-    858.3488
+    45.723,
+    -82.2802,
+    872.5141
    ],
    "max": [
-    55.6989,
-    -90.93,
-    880.9527
+    57.3118,
+    -59.3405,
+    882.7154
    ],
    "obj": "hra-obj/HRA_F_left_ovary.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    49.9,
-    -95.9,
-    869.7
+    51.5,
+    -70.8,
+    877.6
    ],
    "lado": "esquerdo",
    "sistema": "reprodutor",
@@ -58677,22 +58677,22 @@
    "fma": "",
    "en": "Lower uterine segment",
    "min": [
-    -11.6806,
-    -85.1496,
-    828.812
+    -10.0676,
+    -98.4731,
+    843.3687
    ],
    "max": [
-    5.3396,
-    -71.3941,
-    848.0197
+    6.9526,
+    -79.7871,
+    850.2636
    ],
    "obj": "hra-obj/HRA_F_lower_uterine_segment.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -3.2,
-    -78.3,
-    838.4
+    -1.6,
+    -89.1,
+    846.8
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58911,22 +58911,22 @@
    "fma": "",
    "en": "Posterior wall of uterus",
    "min": [
-    -24.0704,
-    -112.6889,
-    832.317
+    -22.4574,
+    -98.9783,
+    849.4265
    ],
    "max": [
-    16.3853,
-    -80.8965,
-    856.7912
+    17.9983,
+    -87.2147,
+    883.7212
    ],
    "obj": "hra-obj/HRA_F_posterior_wall_of_uterus.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -3.8,
-    -96.8,
-    844.6
+    -2.2,
+    -93.1,
+    866.6
    ],
    "lado": "",
    "sistema": "reprodutor",
@@ -58937,22 +58937,22 @@
    "fma": "",
    "en": "Right ovary",
    "min": [
-    -64.3772,
-    -100.8863,
-    858.2848
+    -62.7642,
+    -82.3251,
+    872.4736
    ],
    "max": [
-    -52.7579,
-    -90.8549,
-    880.9263
+    -51.1449,
+    -59.3103,
+    882.7996
    ],
    "obj": "hra-obj/HRA_F_right_ovary.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -58.6,
-    -95.9,
-    869.6
+    -57,
+    -70.8,
+    877.6
    ],
    "lado": "direito",
    "sistema": "reprodutor",
@@ -59015,22 +59015,22 @@
    "fma": "",
    "en": "Infundibulum of left uterine tube",
    "min": [
-    42.469,
-    -97.2191,
-    882.1032
+    44.0819,
+    -59.9137,
+    878.9392
    ],
    "max": [
-    50.4564,
-    -90.0462,
-    892.5261
+    52.0693,
+    -50.0988,
+    887.813
    ],
    "obj": "hra-obj/HRA_F_uterine_tube_infundibulum_L.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    46.5,
-    -93.6,
-    887.3
+    48.1,
+    -55,
+    883.4
    ],
    "lado": "esquerdo",
    "sistema": "reprodutor",
@@ -59041,22 +59041,22 @@
    "fma": "",
    "en": "Infundibulum of right uterine tube",
    "min": [
-    -60.3764,
-    -90.8079,
-    881.4273
+    -58.7634,
+    -56.3734,
+    873.7085
    ],
    "max": [
-    -53.222,
-    -84.0936,
-    891.7973
+    -51.6091,
+    -48.7752,
+    883.8866
    ],
    "obj": "hra-obj/HRA_F_uterine_tube_infundibulum_R.obj",
    "fonte": "HRA",
    "sexo": "f",
    "centro": [
-    -56.8,
-    -87.5,
-    886.6
+    -55.2,
+    -52.6,
+    878.8
    ],
    "lado": "direito",
    "sistema": "reprodutor",

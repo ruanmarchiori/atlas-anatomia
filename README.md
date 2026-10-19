@@ -74,9 +74,10 @@ partir do Visible Human feminino.
   `3d-vh-f-mammary-gland-l/r.glb` (13 e 23 MB) e `VH_F_Pelvis.glb` (1,5 MB, só para alinhar).
 - **Licença: CC BY 4.0.** Crédito no rodapé e em **Mais**.
 - `02-hra-para-obj.mjs` encaixa os órgãos no corpo do BodyParts3D: alinha a pelve óssea
-  feminina do HRA com o quadril e o sacro (escala uniforme 0,944), sobe o útero 13 mm para
-  não atravessar a bexiga (que é a do modelo masculino) e apoia as mamas sobre o peitoral
-  maior. É uma aproximação para estudo — a pelve óssea continua sendo a masculina.
+  feminina do HRA com o quadril e o sacro (escala uniforme 0,944), põe o útero **em pé e
+  de frente** (o HRA o traz antevertido, quase deitado: girado 60° para a vista clássica de
+  atlas, com tubas e ovários para os lados), com o colo no meio da pelve logo acima da
+  bexiga (que é a do modelo masculino), e apoia as mamas sobre o peitoral maior. É uma aproximação para estudo — a pelve óssea continua sendo a masculina.
 - **Não existem nas fontes:** vagina e vulva (o HRA não tem); escroto, glândulas
   bulbouretrais e ductos ejaculatórios (o BodyParts3D não tem).
 
