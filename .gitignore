@@ -1,0 +1,14 @@
+# Dados originais do BodyParts3D (grandes; baixe de novo com scripts/00-baixar.mjs)
+data/raw/
+node_modules/
+dist/
+# Android: build e chave de assinatura NUNCA vão pro git
+android/app/build/
+android/.gradle/
+android/build/
+*.keystore
+*.jks
+keystore.properties
+
+# Cache do TypeScript
+*.tsbuildinfo
