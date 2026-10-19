@@ -261,7 +261,7 @@ export class Motor {
       const grade = new THREE.Vector3(x * celula - largura / 2, altura / 2 - y * celula, 0);
       this.limitesGrade.expandByPoint(grade);
       const maior = Math.max(...peca.tamanho, 0.004);
-      const escala = THREE.MathUtils.clamp((celula * 0.78) / maior, 0.12, 8);
+      const escala = THREE.MathUtils.clamp((celula * 0.78) / maior, 0.02, 8); // peças grandes (pele) encolhem até caber na célula
       // Radial: afasta do eixo vertical do corpo, mais as peças longe do centro.
       const c = new THREE.Vector3(...peca.centro);
       const dir = new THREE.Vector3(c.x, c.y * 0.35, c.z);
